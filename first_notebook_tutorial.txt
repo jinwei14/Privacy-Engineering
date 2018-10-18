@@ -1,0 +1,17 @@
+1. Download (as an archive) the intro_to_pandas folder that you find on Dropbox: https://www.dropbox.com/sh/v7uupzuc5d0aqn4/AADFOVGblTUkrNI7cBcBQtAca?dl=0
+
+2. Extract the archive you downloaded.
+
+3. Open a terminal (Ctrl-Alt-T). Make sure you are in your home folder:
+
+	cd $HOME
+
+4. To install Jupyter, run the following command in the terminal:
+
+	python3 -m pip install jupyterlab
+
+5. To launch it, use:
+
+	$HOME/.local/bin/jupyter-lab
+
+6. Using the bar on the left, navigate to the intro_to_pandas folder and double click on the .ipynb file. You should see the "Introduction to Pandas" notebook!

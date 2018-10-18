@@ -1,0 +1,657 @@
+id,gender,zipcode,employment_status,education,marital_status,children,military_service,disease
+c770660dcc3fac7431e419f2a347ab63,female,89136,retired,bachelors,married,1,no,hypertension
+12bb504256f39f80fb98ac34d844bf84,male,89127,employed,masters,married,2,no,prostate cancer
+cd17807810a8b34a5e140dfe249636fd,male,44101,retired,bachelors,married,2,no,multiple sclerosis
+de66fb860a6edf9a6fddf7f3f6917088,female,43221,employed,bachelors,married,2,no,breast cancer
+be0d156c8a82399f39ab85def110ea1f,female,94105,employed,bachelors,married,2,no,hypertension
+db0d2abd54f365d38636cc30a713a903,female,94105,employed,bachelors,married,3,no,heart disease
+60a5d96bf1984dec8f0987b612f8dc5c,female,10001,retired,bachelors,married,1,no,diabetes
+22535c5766d012b792e2d948e59ccdf9,male,90008,retired,bachelors,married,1,no,kidney disease
+b72c8282f123bf6672a4494af99621d4,male,94110,unemployed,highschool,married,2,no,HIV/AIDS
+c3f9a9b4965a2397766a677e60ac289a,male,89127,employed,masters,married,2,no,multiple sclerosis
+94d9db0af144b088a45e631aa1ae1656,female,10001,employed,bachelors,married,2,no,breast cancer
+98c92362506eb5ef9a60fd96bfa7de96,male,94110,retired,bachelors,married,2,no,Alzheimer's disease
+78d9064281b2c7001919c81d566eb6b7,female,94110,employed,bachelors,married,2,no,endometriosis
+be59288854cb0417c9cec0c323b59adf,female,44101,retired,highschool,married,2,no,breast cancer
+a145eeed6a14395c48014e207ce62287,female,94105,retired,bachelors,married,2,no,diabetes
+9e8646d23482e435f4e60749a7538208,male,10026,retired,bachelors,married,2,no,multiple sclerosis
+b2a27500ebe2ef609f0dd2c57ee638cd,male,90008,employed,bachelors,single,3,no,prostate cancer
+caae654f54d7c043d0484728770c7b1e,male,94110,retired,bachelors,single,2,no,gastritis
+880f333b7691fb6b98fcdc62b84d7c02,male,89136,retired,bachelors,married,2,no,Alzheimer's disease
+8bb81e4e51578b662956a49ddaa652b0,female,43210,employed,bachelors,married,2,no,breast cancer
+ceffa2b764e23ee5cbb3d2a44ad768d5,female,60605,employed,bachelors,married,1,no,gastritis
+fa9b1d4f76edf52ac644ab4433a792ad,female,60612,retired,bachelors,married,2,no,multiple sclerosis
+b1693cf1d0bef085d70581b2c41ddfc0,male,10001,employed,bachelors,married,1,no,skin cancer
+710b74a9048b0a0ff4adf131f16dabff,female,90008,retired,bachelors,married,2,no,diabetes
+45e8e3695010bb6f3178901fa206187e,female,44101,retired,highschool,married,2,no,skin cancer
+ce387dca74c918c5a30dbccd2bf1a537,male,60605,retired,bachelors,married,2,no,Alzheimer's disease
+0aa04ca9ee677b655d2e1f73fefa5bae,female,90008,employed,bachelors,married,2,no,skin cancer
+1a7d8861f071f50867d3ae8f79094e00,female,89136,retired,bachelors,married,1,no,diabetes
+785b7ef4b4397e1bb6f2ad8095605c0d,female,94105,retired,bachelors,married,0,no,skin cancer
+673926eae50375e022777aaca255d0b8,male,43210,retired,bachelors,married,2,no,prostate cancer
+bb683437a3aabe7e500a29ce0db7b7ea,female,43221,employed,bachelors,married,2,no,breast cancer
+aef07e61d4767c3a07c599851c395e2c,male,89127,retired,bachelors,single,2,no,multiple sclerosis
+7e1fa6a4cfa3623e003cba736128592f,female,90015,employed,highschool,married,2,no,hypertension
+25f2124281c96d1c7157fb6796e70f83,female,89127,retired,bachelors,married,0,no,hypertension
+6f7db6150aa9e8046b9f30ff6c417690,male,43210,employed,bachelors,married,3,no,skin cancer
+a798fdcb4e778b2c9cd761f4f8bb28f2,female,94110,retired,bachelors,married,2,no,breast cancer
+f2c8a34fa9e134712e15f148e27866a7,female,60605,unemployed,highschool,married,2,no,hypertension
+da993e19c1a06178720a916d58b5a658,female,60605,retired,bachelors,married,2,no,skin cancer
+f104b67f9a72d3db4472634c221bd485,male,89136,employed,bachelors,married,2,no,Alzheimer's disease
+0b4a6553278caa75c3657b10a6917858,female,90008,employed,bachelors,married,4,no,breast cancer
+fc5d47c35fa148837c9f307efeded377,female,89127,retired,bachelors,married,1,no,Alzheimer's disease
+f941033d3c7a4fa41b02ccc6dd61490c,male,94105,employed,bachelors,married,2,no,prostate cancer
+078269db14c9014abd05e2f60048611f,female,60612,employed,bachelors,married,1,no,gastritis
+bca0cc142299007aa45650323446fce5,male,60605,retired,bachelors,married,2,no,heart disease
+a6886c8808209d765706bbef1d86ae5f,female,94105,employed,bachelors,married,2,no,multiple sclerosis
+573356c44554883b713fb4fd21adfa0b,female,90008,retired,bachelors,married,4,no,Alzheimer's disease
+7f5ff5fd73c0f8b1c6166aa830007f80,male,60605,employed,bachelors,married,2,no,kidney disease
+8997c329fa08db74d8c4866d458fa285,male,94110,retired,bachelors,married,2,no,prostate cancer
+b8a77bf144dc65634c9f9147820812fe,male,43210,retired,bachelors,married,2,no,skin cancer
+09b0dba8d83a19f3d26a8719f4b5970c,female,60605,retired,bachelors,married,2,no,breast cancer
+f086f9025e5afac2fbb461c9e47c48a0,female,60605,employed,bachelors,single,0,no,Alzheimer's disease
+76213c3f530fa38d19b78578fa861a68,male,89127,retired,bachelors,married,2,no,prostate cancer
+177e31e4f366656229ad2b0307ae2d30,male,10026,retired,bachelors,married,3,no,multiple sclerosis
+8b2864e340c04dfdc5abdd8907454385,male,94110,retired,bachelors,single,2,no,kidney disease
+201405faeb3dee2fedb4daf51d6409b9,female,44101,retired,bachelors,single,2,no,breast cancer
+fc407b3ddd6cccdd9e9dde30f4ba347d,female,10026,retired,bachelors,married,1,no,breast cancer
+348c0c6ebd86320ee3c5324263ada5e9,female,90015,retired,bachelors,married,1,no,hypertension
+4d4bbcb1538c060758e38aa81a430fdb,male,89127,retired,bachelors,single,2,no,schizophrenia
+4242f27dcb707388f227a0297eeabf6d,male,89136,retired,bachelors,married,2,no,hypertension
+d4a3354a88361fe5b9e30a36692cd37b,male,90008,employed,bachelors,married,1,no,diabetes
+acf65eba03536fee59703d28ac0edb44,male,94105,employed,bachelors,married,2,no,Alzheimer's disease
+f37b43ede81b80384d36e353065e3209,female,44101,retired,bachelors,married,2,no,Alzheimer's disease
+2e0ea3f9a6a715721dd0b0a2efe9ff8d,female,60605,employed,bachelors,married,1,no,breast cancer
+6ddac480e8ebb3f4f2c4844ab1ce5336,female,10001,employed,highschool,married,2,no,breast cancer
+a18b0075897410c47c50ba7632f67a50,female,94105,employed,bachelors,married,2,no,kidney disease
+0048c4ac5b947eaa7e7fdd63bda9647e,male,43221,retired,bachelors,married,3,no,prostate cancer
+5d56dd60f6eab7711d899fd42e2623b5,female,10026,retired,bachelors,married,1,no,breast cancer
+7b150e06f50a834f1cba516b971c986b,female,89136,retired,bachelors,married,3,no,endometriosis
+4b3291b7c5a28c2e6aadb3c30f1f2e8c,female,89136,retired,bachelors,married,2,no,gastritis
+9dffab189e83cd3373bf17b835fb57c2,female,60612,retired,bachelors,single,2,no,skin cancer
+81619501cd58ebdb2405560611b5cd2f,female,43221,employed,bachelors,married,1,no,schizophrenia
+130676e01f77c1bc725a173cca48be6b,female,60612,retired,bachelors,married,1,no,endometriosis
+f84dc8d795648ca0c1dbeb6dd90a1c13,male,44101,retired,highschool,married,0,no,kidney disease
+c3c932233e5f7cce1d510373f69b81ed,male,94110,retired,bachelors,married,4,no,skin cancer
+f725479b8486106d0093440888182558,female,10026,retired,bachelors,married,2,no,hypertension
+53496f21be6cf8804dbd6c750f4ba7af,male,89127,retired,bachelors,single,2,no,hypertension
+b1d60032d5caa3785572dfebdb1f9d87,male,94110,retired,bachelors,married,0,no,gastritis
+8401872bbe30a9ed3b9dd3fd10fbee5f,female,89127,employed,bachelors,married,3,no,hypertension
+2a2efe99a88305ec07915924f622aad8,female,60612,employed,bachelors,married,1,no,Alzheimer's disease
+2077ada02ae0c1daa8efa224fe65340e,female,43210,retired,bachelors,married,3,no,gastritis
+1c6d980acbb26d8a39aa5b7b2fbea95e,female,89127,employed,bachelors,married,1,no,multiple sclerosis
+9f4116bc549279229314fbdc11e688df,male,94110,employed,bachelors,married,2,no,skin cancer
+d4093034ffc3d81c049746fd78edec49,male,10001,retired,bachelors,married,1,no,kidney disease
+9b7c47561512ea76bed3ee63cd733658,male,44101,retired,bachelors,married,2,no,Alzheimer's disease
+710d8b5856ea870c5466c10111d56ff2,female,10001,employed,masters,married,2,no,breast cancer
+32686b917d2c7b7f197652d949bcf777,female,89127,retired,bachelors,married,2,no,Alzheimer's disease
+c63625e1b2e6c524c2bc315b2eefdb90,female,44101,retired,bachelors,married,2,no,hypertension
+f00afd3d2163c9b20724290863dcb9cb,male,10026,employed,bachelors,married,4,no,skin cancer
+e0840d2e9f59dd99ac7165ac433ca151,male,10026,retired,masters,married,3,no,Alzheimer's disease
+1b67c4b38e6e52561cf1fcb4cc8c65bf,female,90008,employed,bachelors,married,2,no,HIV/AIDS
+fe11fe467cb7ce1a1553258b7eb22483,male,89127,retired,bachelors,married,2,no,diabetes
+f38dacfee869e8b3f5f5d3b023a08425,female,43221,retired,bachelors,married,1,no,hypertension
+cef949688e9d7ed21a24ae423726dc33,male,10001,employed,bachelors,married,1,no,kidney disease
+4ba1f7d761a439cf19752c390fba1d54,female,90008,employed,bachelors,married,4,no,Alzheimer's disease
+61e5b718164f9ed77216f174d60a7b88,female,10026,retired,bachelors,married,2,no,multiple sclerosis
+b99d6b8319f22eb75a120f54c00bedeb,female,10001,employed,bachelors,married,3,no,skin cancer
+ba8f7e2d4695b28b4ab9b25d03f0640c,male,60605,employed,bachelors,married,1,no,prostate cancer
+0bf2c48b94080fcf372c25b4ec3832e9,female,10001,retired,bachelors,married,2,no,endometriosis
+1b441e4384949623734b65c468a9e38c,male,94105,retired,bachelors,married,2,yes,diabetes
+a5882a68c10c6b8795386e8adf7b5779,male,10001,employed,bachelors,married,2,no,skin cancer
+57097e2f5512e2eb4318200943feb78e,male,10026,retired,bachelors,married,1,yes,schizophrenia
+e797ae558401192db623fffbb2ba3309,female,10026,retired,bachelors,married,3,no,hypertension
+a94d56564eb94c3cc983deae901311c0,female,44101,employed,bachelors,single,2,no,kidney disease
+e380d56f6c7116e6b18dbafee76f61a0,male,89127,retired,bachelors,married,2,no,prostate cancer
+00664b34854e90f0d2bc22bb46357810,female,44101,retired,bachelors,single,2,no,gastritis
+7844399fa37bb62d37f88ff0af6b2724,female,94110,employed,bachelors,married,5,no,heart disease
+4b2463fdb1f5f9bfed2b06f63a1273f4,male,90015,retired,highschool,married,2,no,Alzheimer's disease
+cae38ee6e9d443f779a49541d749893e,male,89127,employed,bachelors,married,2,no,prostate cancer
+6c3ec29914dbdb212a109201c3f52617,female,94110,retired,masters,married,2,no,Alzheimer's disease
+96c0691fee3eac64fb5f90beda47c9f8,male,60612,retired,bachelors,married,2,no,diabetes
+910b5e2d02fc50780dfe793f0b8a91af,male,94110,retired,bachelors,single,2,no,Alzheimer's disease
+ce0ae86d35f1bac1b0ebd36edacddd8d,male,89136,employed,bachelors,married,1,no,prostate cancer
+173bbd68e2d1e2da66e3a782cc7f1017,female,94110,retired,bachelors,married,1,no,skin cancer
+2e25b6b8424447849d1671a4ff545fd9,male,10001,unemployed,highschool,single,3,no,diabetes
+fe26fda0694420bae2b988739cfe6af5,male,10001,employed,bachelors,married,2,no,skin cancer
+da28bc7d07bbb0eafd061cd31bec4234,female,89127,employed,bachelors,married,3,no,breast cancer
+94f312df0f7959c7784e22d3d72d791b,female,90008,retired,bachelors,married,1,no,skin cancer
+6b4088793fe26211f3a1b4a039d3f7a8,female,94105,retired,bachelors,married,2,no,breast cancer
+b5eee23f3cb5e6066fd4dda5306f486f,female,94105,employed,highschool,married,4,no,skin cancer
+341436eacb55c33a461abd6110ebe258,female,90008,retired,bachelors,married,5,no,breast cancer
+08184ceaae621ff42a5bb880006c7ab0,female,44101,retired,bachelors,married,3,no,multiple sclerosis
+77396a3548301d1ae414b9b789a8cbc9,male,90015,retired,bachelors,married,2,no,schizophrenia
+31a82eefb98984b0f4820de9d7d4cc0c,male,60605,retired,bachelors,married,2,no,skin cancer
+d12d1f69193b1ee21be3700516c8661f,male,90008,employed,bachelors,single,3,no,Alzheimer's disease
+e5e4961a591de26c1bb87c0b280027c6,male,89127,retired,bachelors,single,2,no,Alzheimer's disease
+2288942b74b052a0c23200cfac75c2ce,female,94105,employed,bachelors,married,2,no,breast cancer
+87084a9b2c7442d1c5dec61b3cd47937,female,60612,retired,highschool,married,2,no,diabetes
+56b2295687ca9ec56b01e84d9f5525e4,male,89127,unemployed,highschool,single,2,no,prostate cancer
+43c47d5412441dc8e5e567b3aa1f6dc4,male,10001,retired,bachelors,married,1,no,diabetes
+a7024c1863a290d8345c094b87fdc0f6,male,60605,retired,bachelors,married,1,no,Alzheimer's disease
+7ff06d84a4c590bf0aa14e0772f7f380,female,10026,retired,bachelors,married,3,no,Alzheimer's disease
+d286a02eb04758e25448539fc8467020,female,89136,retired,bachelors,single,2,no,multiple sclerosis
+739a8088d6e00dcd32e6da8cfc6479c1,male,94105,retired,bachelors,married,2,yes,heart disease
+875a26035b26b80fe6316a1926ba4b9d,male,90008,retired,bachelors,single,3,no,hypertension
+79f51c84f4210ff67d346ebd9189523f,male,60605,retired,highschool,married,1,no,prostate cancer
+c1bc75d1df12211e58df559de6ac2e77,male,43221,retired,bachelors,married,2,no,diabetes
+fc4a013099b45d48ce62c526ddd965fa,female,60612,employed,bachelors,married,1,no,skin cancer
+d749a88bd508be33082d1e8d4ce3e9c8,male,89127,employed,bachelors,married,2,no,prostate cancer
+0cbc4c5f83efb28b00e4c5515c121c41,female,89127,retired,bachelors,married,1,no,breast cancer
+34900cf8a42e5188dd64228f4bf75005,female,89136,retired,bachelors,married,2,no,Alzheimer's disease
+418f1f25e12dd198d59b7ff81a50c049,female,90015,employed,bachelors,married,1,no,heart disease
+501984b7957c3e564394337bb39180af,female,94110,retired,masters,married,2,no,Alzheimer's disease
+64ec214d996e563ec009559b98322940,female,94110,retired,bachelors,married,2,no,breast cancer
+4324327b3e4233ddd52ab1fbc1eda85f,male,10026,retired,bachelors,married,2,no,Alzheimer's disease
+bcc39fe46266a3f58d810cbe3fcc0047,male,10001,employed,bachelors,married,2,no,prostate cancer
+408d3692b876bc6ed03724da7daf5672,female,94105,retired,bachelors,married,0,no,endometriosis
+7ddff9983358f521faf8e8be1b48d4cd,male,89127,retired,masters,married,1,no,skin cancer
+f16b68ec5a47658a7ed63ba8359abe07,female,44101,retired,highschool,married,2,no,endometriosis
+11431f59c2042763a61854b375d358c9,female,10001,employed,bachelors,married,4,no,diabetes
+4e8608a888a2854a81d2242568015940,male,90008,retired,bachelors,single,3,no,prostate cancer
+93db74c6f81d59368fcee5bbd7208b89,male,89127,employed,bachelors,married,1,no,gastritis
+ecad873efbb5f715ee1dc0bf305ed598,male,90008,employed,bachelors,married,1,no,hypertension
+64820d91081cf8ab29d55db234676035,female,94105,retired,bachelors,married,2,no,gastritis
+a2c4f466363b3560b50a58bda752120e,female,10026,employed,highschool,married,1,no,kidney disease
+96bb6371f619f395458d992b8e22f386,female,60605,unemployed,highschool,married,2,no,breast cancer
+7c5c22308ef4bbc3ce75a91f452cc7e8,female,89127,employed,bachelors,married,1,no,Alzheimer's disease
+dcbdcc5e4f5281b7e499d85697f70a52,male,43210,employed,bachelors,married,2,no,HIV/AIDS
+e001575fac2a76d8c18a90cad9683271,male,60612,employed,bachelors,married,3,no,hypertension
+cd61e0e795350e64aa0b5c1505b028a7,male,10001,employed,highschool,married,1,no,prostate cancer
+1ab620616a18cf9959726fe9bc681d65,male,43210,employed,bachelors,married,2,no,prostate cancer
+c27c51cd94eed37e2e63090015c12932,female,94110,employed,bachelors,married,4,no,skin cancer
+55b26e55c5abf4b0b63df8d290daab5d,female,43221,retired,bachelors,married,1,no,kidney disease
+f054714ad8e314d02ef2d4bd98542fc5,female,43221,unemployed,highschool,married,2,no,skin cancer
+a5e1f59d70aadad26baeb9bfc6b3db67,female,89127,retired,bachelors,married,2,no,kidney disease
+3a729f072eee788379b98e7549bff6f7,female,43221,retired,masters,married,2,no,endometriosis
+87411f0453d142958c5f43d206b39980,male,94110,retired,bachelors,married,4,no,diabetes
+f2e63229f2bbf8145bf228afe6e99c2a,female,94105,retired,bachelors,married,2,no,endometriosis
+72cf44e39414956acd5d2663523ba9d4,female,94105,retired,bachelors,single,3,no,breast cancer
+6f08f64ed1d479eac45c0ab073f4bb1e,male,10001,employed,bachelors,married,1,no,skin cancer
+d809c0a4a88cca23f1b312c03f071b12,male,10026,retired,bachelors,married,3,no,hypertension
+34b3481e93b4339d1dd596fbb902db7e,male,89127,retired,bachelors,married,2,no,diabetes
+c482320da078ef071e9652e5d8fd15b8,female,94110,retired,bachelors,married,1,no,breast cancer
+2abafc1aa559756673c4bfa8d45c69ed,male,90015,retired,bachelors,married,2,no,prostate cancer
+ce52ccc6f442b8e59ec6d503edd7df8f,male,60605,employed,bachelors,married,1,no,gastritis
+88c13d5398987464e1d08acefd04d260,female,90008,retired,bachelors,married,2,no,Alzheimer's disease
+e188d908dd412bddf60a0129d6c37d17,female,60612,employed,bachelors,married,1,no,Alzheimer's disease
+103e8cd90ebef3160bc03df17c20b423,male,60605,retired,bachelors,married,2,no,Alzheimer's disease
+f64162fa11c07050add07a3da1dd6b3f,female,43221,retired,bachelors,married,4,no,kidney disease
+d186302c88f20a071dd4c5faafdbba3d,female,60612,retired,bachelors,single,2,no,diabetes
+0f78030da0059aa8d945fbdb085dbfd5,male,89136,retired,bachelors,married,1,no,Alzheimer's disease
+f826cc640d0585a55f2b0a5d58a7019b,female,60612,retired,bachelors,married,2,no,hypertension
+808f32c2a9592ef53e41edc430bbd657,female,10001,retired,bachelors,married,1,no,Alzheimer's disease
+c993ad8845daa1ae348bad251f058aec,female,43210,retired,bachelors,married,3,no,kidney disease
+f68f1c30d796140845fd2878f83f0a58,female,10026,employed,highschool,married,1,no,Alzheimer's disease
+6285a084bcabf6ca0168609861539fba,male,10026,retired,bachelors,married,2,no,Alzheimer's disease
+3b8992ce714939b35a7e0bc6529ea0e1,male,89136,employed,bachelors,married,2,no,kidney disease
+8d76534886f56c352852bef1f80f4232,male,43210,employed,bachelors,married,3,no,prostate cancer
+3633801e986c0b69183e74f8342d009b,female,89136,retired,bachelors,married,1,no,skin cancer
+a132b8efbd6ee7d5d46e1471a2dfbb28,male,94110,retired,bachelors,married,2,no,kidney disease
+707afc579005ae61bb1edf0dc4102b53,male,90008,employed,bachelors,married,1,no,kidney disease
+ac9471f09167cea2bf42355d7cb0c253,male,90015,retired,highschool,married,2,no,skin cancer
+2b1e905a8d9d643fe82458b6dda0d11c,male,10026,retired,bachelors,married,1,yes,kidney disease
+bb9f63afc1288a387df2fb55e63c1eaf,male,10001,employed,highschool,married,1,no,hypertension
+5e09c297f79882f9b34639d2fc78a324,male,90015,retired,highschool,single,1,no,skin cancer
+6ae93b560f447b25c0e568587aaada74,male,60612,employed,bachelors,married,3,no,prostate cancer
+52a22a699a9dc9a1f2682910a8a1844f,male,94105,retired,bachelors,married,2,no,multiple sclerosis
+b8815c65a84797bbc841c15afdd73d44,male,94105,employed,bachelors,married,0,no,multiple sclerosis
+9694af2f3ef5622e8a2a2ec5ef6e271b,female,60612,retired,bachelors,married,2,no,HIV/AIDS
+4a734314c214b5cccb899aba46cd7c20,female,43210,employed,bachelors,married,1,no,diabetes
+b0198baa9edcdae521bf6edd9e85c105,male,89136,retired,bachelors,married,1,no,skin cancer
+23084d623be27f026e4b41d11de2bfda,female,60605,unemployed,highschool,married,2,no,breast cancer
+64a7d505c22bfd2c1330e1d5864a8014,male,89136,employed,masters,married,1,no,Alzheimer's disease
+c34aa5b0486d36f3f2ad357d2f1606b3,female,10001,retired,bachelors,married,1,no,gastritis
+15d1dc59a2bcf0691d4fa8b23c819a40,male,94105,employed,bachelors,married,2,no,kidney disease
+cfdfbe5a97909bf3f184cf48866904d3,male,94105,retired,bachelors,married,1,no,diabetes
+a7417f70c1bb12e389dd9f4fad05124e,female,89127,unemployed,highschool,single,1,no,breast cancer
+14b625a6dd0e758d7e227ba683ed1c22,female,94110,employed,bachelors,married,2,no,gastritis
+bc3c849f8b94b9688ee38a44444525da,female,90008,retired,bachelors,married,1,no,diabetes
+96c55846f18503060369dd770fc472fb,male,89136,retired,bachelors,married,2,no,prostate cancer
+8d863c4325ccfd87667d026bfdd435ab,female,10001,employed,bachelors,married,2,no,Alzheimer's disease
+3a4a110a4cf5be61bc43e99e32d369f8,male,10026,employed,bachelors,married,2,no,kidney disease
+e52b7478c04a4bdf857b3c5090822344,female,60612,employed,bachelors,married,1,no,hypertension
+0cf112a3899f68aac540f6cc1a72bf8f,male,60605,retired,bachelors,married,2,no,hypertension
+9f8d744fc73d131a74c2f316e11bba6b,male,60612,employed,bachelors,married,2,no,hypertension
+99a89a63a4ccec57ae55e2a271230ac2,female,43221,retired,bachelors,married,1,no,hypertension
+aab649a737834950e731f98f345d470f,male,89136,employed,bachelors,married,2,no,hypertension
+49b340a150efe7f387a7e82489c8cb8b,male,94105,retired,bachelors,single,3,no,prostate cancer
+8405e7c363bd4ae835b8bf437a19eeb5,female,90015,employed,bachelors,married,1,no,skin cancer
+23050b20cc7fa0b5da29ca878b568a49,female,10026,retired,bachelors,married,2,no,multiple sclerosis
+e1e38e7f0ed6862c1ffdfcf4d93c985d,male,89127,employed,bachelors,married,1,no,prostate cancer
+8eca289c2dc34e81abadc4455bca41e3,male,60612,retired,masters,married,4,no,diabetes
+6695cfc3b3ce1ddebf3e570136210c3e,male,10026,retired,bachelors,married,3,no,multiple sclerosis
+2951b136681f7f2a531ec32096d63256,female,90015,retired,bachelors,married,1,no,endometriosis
+0685131130434d7c2390f15e478597b6,male,10001,retired,bachelors,married,1,no,prostate cancer
+e4d7a388c24465e95e459e5556bd92d0,male,60612,retired,masters,married,4,no,prostate cancer
+33486c2b8780c7c9abaf6f101156e105,female,94105,employed,highschool,married,4,no,heart disease
+7089e8622d78c6c96ce47752fe6a35f6,male,60612,employed,bachelors,married,2,no,prostate cancer
+a6374d26715d74258c6d635284dcbbf3,female,94110,employed,bachelors,married,1,no,breast cancer
+f02de993b05803d97a25ff3f0085ba9a,male,10001,employed,highschool,married,1,no,multiple sclerosis
+92960717ccb0c2db1017d6a1791862bb,male,60612,employed,bachelors,married,3,no,skin cancer
+97e1bbdfd0b4eec10c44ce781201f6a5,male,60605,retired,highschool,married,2,no,hypertension
+1c08c84a86b033d1030ba1ca1e6b1772,male,94110,retired,bachelors,married,0,no,Alzheimer's disease
+5801b6a70e1f512f8a877aad241b0570,female,89127,retired,bachelors,married,2,no,breast cancer
+f6731877738c71708368e729ff99ed1b,male,90008,retired,bachelors,married,1,no,diabetes
+862238e85b6010c9d886c39bfb5835a2,female,10026,retired,bachelors,married,1,no,hypertension
+ff22b36669e099f878104de5acce70fe,male,60605,employed,bachelors,married,1,no,skin cancer
+40d2652656bda217107367adb7b76c87,female,60612,retired,bachelors,married,1,no,breast cancer
+7033f93cdaf5a6cd59425602b9baa5e5,female,94110,retired,bachelors,married,2,no,kidney disease
+62da1328c8fe73d09d0d86a16c33976d,female,94110,employed,bachelors,married,5,no,breast cancer
+91ceae7c7b333b502a2899a0d4d509da,female,60605,retired,bachelors,married,2,no,skin cancer
+3f8d18e973e6bfb1e94cc8582b189d31,male,94110,retired,bachelors,married,2,no,gastritis
+3ed99d64f60e35c555473dce16bd814e,female,90015,retired,bachelors,married,2,no,endometriosis
+b17e78b165c2d84ba6006652e6a0b677,female,90008,employed,bachelors,married,4,no,heart disease
+47eff8079f56f7d4edf5c95fb06a3be8,female,89136,employed,bachelors,married,2,no,hypertension
+c449a5c29003beed4976cb04732d4b12,male,10001,employed,bachelors,married,2,no,diabetes
+4fad12734918c990bac604597bf0847d,male,89127,employed,bachelors,married,2,no,HIV/AIDS
+3cf0f117f7881b176e8220a299799690,female,90015,employed,bachelors,married,3,no,HIV/AIDS
+a4f10f1f76a1cd7e13ce66d844775b70,female,89136,employed,bachelors,married,2,no,hypertension
+89db00aae710970927477b1d42392891,female,43210,employed,bachelors,married,4,no,gastritis
+0db9d11fa5bea5f30dadaf1c99aba84d,female,90015,employed,bachelors,married,1,no,HIV/AIDS
+266a7953b85c77584cfc35ad5167242c,female,89127,retired,bachelors,married,2,no,gastritis
+4d6b459277003f915b360577436eff75,male,89136,retired,bachelors,married,2,no,prostate cancer
+401b4c30f6f0d3171a895e3584906172,female,43221,unemployed,highschool,married,2,no,multiple sclerosis
+b5555c73218e94cf6af5c9267db4f766,female,43210,retired,bachelors,married,1,no,multiple sclerosis
+eeeae890280f7447d60c01374818a1d8,male,90008,retired,bachelors,married,2,no,Alzheimer's disease
+86f1fccc5911da00198e6ed4f10ebe5e,female,90015,employed,bachelors,married,1,no,HIV/AIDS
+a178ca24adad8eec7b363eae0e6cf261,male,89136,employed,bachelors,married,2,no,skin cancer
+592429c7caf3436b49ce0207457855a5,male,90008,retired,bachelors,married,2,no,Alzheimer's disease
+a745fbe06b5b041d45e67bd3597f5a05,male,10026,retired,bachelors,married,2,no,Alzheimer's disease
+c1e8336b83f7879aa825d8d37fa85c93,female,90008,retired,bachelors,married,4,no,hypertension
+29f0b5b86edfba76e3bbc13c64d09157,male,44101,retired,bachelors,married,2,no,Alzheimer's disease
+58ade1616883af41e494c1348fb5529c,female,94110,employed,bachelors,married,1,no,hypertension
+4c7a5d19f504435e3fbd0414acf8768e,female,94110,employed,bachelors,married,5,no,breast cancer
+c4abebfc45190d68709a59e1b990fac5,female,89127,employed,bachelors,married,3,no,breast cancer
+c6ddd6c6e7734bd7776c14fb87971713,female,94105,retired,bachelors,married,2,no,hypertension
+662e73cd205be41269cc6d393dbd841e,male,43221,retired,bachelors,married,3,no,Alzheimer's disease
+a80d7de864c20c74d72192338a7e7396,male,60605,employed,bachelors,married,2,no,Alzheimer's disease
+81aecce8f204be025ab942ec7b633fe9,female,90015,employed,highschool,married,2,no,gastritis
+f1f333d9b2caba3931d8d91c8a5b3846,female,43210,employed,bachelors,married,2,no,hypertension
+3143216993a575a658dbd20a336219ae,female,89136,retired,bachelors,single,2,no,hypertension
+46494ca1868462ee6c3a4d2f9abe65e7,female,10001,employed,bachelors,married,2,no,hypertension
+e124210636d9d541f9b4ff6ddadc1eb9,female,44101,employed,highschool,married,2,no,kidney disease
+9aefdd2fc084f9bb906626ff0cbe1966,male,10026,retired,bachelors,married,1,yes,multiple sclerosis
+f82785d8f640c749c3d0bd361ebcafc5,female,44101,employed,bachelors,single,2,no,kidney disease
+3965bad5e10689af1a2e01e1fdf286eb,male,10001,retired,bachelors,married,2,no,hypertension
+07335619a5018cd6abe7150158f3a994,male,94105,employed,bachelors,married,0,no,gastritis
+e003e54cf4463ab59292e1d557328e76,male,89127,employed,bachelors,married,1,no,skin cancer
+c729ada0316b62b8a9a4e359613f64b5,male,43221,retired,bachelors,single,1,no,hypertension
+07843a0683864799a44ba7717e86cd18,female,43221,employed,bachelors,married,1,no,schizophrenia
+7317ac13670ee3a28a7993d2f0e2f001,male,60612,employed,bachelors,married,3,no,Alzheimer's disease
+bed9a905aea6fcb9d8492b8115087066,male,43221,retired,masters,married,1,no,HIV/AIDS
+b6202e3b36baa183db8c7dc26301e75e,male,10026,retired,bachelors,married,1,yes,Alzheimer's disease
+6132b3b8daa499c3fbf01c8463b01afe,male,43221,retired,masters,married,1,no,prostate cancer
+7f2f58fe69e7aa69ea68b91d69be97a0,female,43221,unemployed,highschool,married,2,no,Alzheimer's disease
+b8ee2e2f03dfe604ee7ac38451604a60,male,60605,retired,highschool,married,1,no,Alzheimer's disease
+7a50814fbaf06952403c245d56cdd3a5,female,10026,retired,bachelors,married,3,no,kidney disease
+cc5531d166a2d08d9212e015046206f6,female,94110,retired,bachelors,married,2,no,endometriosis
+3887164eba11dffb16fc813da2642b6e,male,90015,retired,highschool,single,1,no,prostate cancer
+b950bf54edc81297258cd1bbca21d589,male,90008,retired,bachelors,married,1,no,Alzheimer's disease
+411c17e225aba5436c7a498d04047c9e,male,10001,retired,bachelors,married,2,no,prostate cancer
+e62f0c68f250c01baa1dbe0e7f9cab75,female,94105,retired,bachelors,married,2,no,skin cancer
+90faab1334dee27147f89b47ed8f5f9c,male,43210,retired,bachelors,married,2,no,skin cancer
+cb01fca56ac501d56e14e80e3fb17013,female,90015,employed,bachelors,married,3,no,breast cancer
+8820e8c42f8e7ea096fb45b131acc9f5,female,94110,retired,bachelors,married,2,no,multiple sclerosis
+9419b08b195c9118b25fc9c3c53736e3,female,90008,employed,bachelors,married,3,no,kidney disease
+e1d548ee45e409874921df813e87a1db,male,89127,retired,masters,married,1,no,skin cancer
+5d8a0d1cdc2c08bbf89e435e06c7cd94,male,43221,retired,bachelors,married,2,no,kidney disease
+0ab53d52c62d71d881d3b51f8a374bfa,female,10001,employed,bachelors,married,2,no,schizophrenia
+fdb1d4e0bddb051cb475cd9e921e9345,female,43210,employed,bachelors,married,1,no,kidney disease
+fdd0387864b79384e4a205af76398ba9,female,89136,employed,bachelors,married,2,no,endometriosis
+97a58a1c91094b7fa80f77909f293942,male,10026,retired,bachelors,married,3,no,Alzheimer's disease
+21551589fddcd996ab46c5d6c6aed626,female,44101,retired,bachelors,married,2,no,kidney disease
+e178ae285de55abfea77193f38772910,male,90015,employed,bachelors,married,2,no,Alzheimer's disease
+912561a7c4461cd2eb45954bd6bc488d,female,44101,employed,highschool,married,2,no,skin cancer
+9592a74de191edad758958ddce52334c,female,90008,retired,bachelors,married,5,no,breast cancer
+ec563ccec6320aa4734f1a4dbfe7f248,female,94110,employed,bachelors,married,2,no,hypertension
+0e4bf0174983d07e28182ecbdeb39a17,male,89136,retired,bachelors,married,1,no,skin cancer
+647bfa0727905464f9b192541e7809a4,female,94110,retired,bachelors,married,2,no,kidney disease
+ab4f5379d787c69e45487d18bebf3e5e,female,10001,employed,masters,married,2,no,hypertension
+2f56849e8599b3d4fa9ff77a324f3a2c,male,60605,employed,bachelors,married,2,no,hypertension
+a142d1baa1b204cc9b73196b017e762c,male,89127,retired,bachelors,married,3,no,Alzheimer's disease
+56ded9fa51593ea4b7a34eb8e3bb1d33,male,10001,retired,bachelors,married,1,no,gastritis
+5b30a137e6f1d35e57467272400d6286,female,60612,retired,bachelors,married,1,no,skin cancer
+a7442a425ad7a8adb2c8d39990f73c6f,female,89127,unemployed,highschool,single,1,no,skin cancer
+96f2a608ebfaef72837caa94d60c0d1f,male,60612,employed,bachelors,married,4,no,gastritis
+74c584471d559bb00e60ab0da9df0636,female,10001,retired,bachelors,married,3,no,breast cancer
+67332357a1b4d207dc0e3760446409e5,male,94105,retired,bachelors,single,3,no,hypertension
+a53003874bc2f228691572e9cf922649,female,89136,retired,bachelors,married,3,no,breast cancer
+1a9c6c108117285d2f6c7c0572287b7a,male,43210,employed,bachelors,married,2,no,Alzheimer's disease
+8ffbfefc3ddfd12160dfdb87c55a4ac2,female,89136,retired,bachelors,married,1,no,hypertension
+ac00dfba9c5e9402c95bb88aac19b790,female,94105,employed,bachelors,married,1,no,endometriosis
+f90fdac3181539ea26514f40472a5f26,female,89127,retired,bachelors,married,1,no,kidney disease
+04e2399451ab8bd9421b35f0339e3193,female,43221,retired,bachelors,married,2,no,breast cancer
+9283125411577b59a3eeed22907f30e9,female,89127,retired,bachelors,married,0,no,Alzheimer's disease
+43469885c7ed2eb2ce0dc1a79bf2d99e,female,43221,retired,bachelors,married,3,no,skin cancer
+ab9e6aed4d811712f00b0515530725be,female,90008,retired,bachelors,married,2,no,hypertension
+e272d28ab272be3b1f00ae16be7301e3,male,94110,retired,bachelors,married,2,no,hypertension
+2f8d73522747c6c02a67ca7b6526428d,male,94105,retired,bachelors,married,1,no,prostate cancer
+b05a4d8d66a7de8797dbf5540cfac8a2,male,43210,retired,bachelors,married,1,no,multiple sclerosis
+0eb1ae2886b9d4f72cdd7d5b2574a62e,male,44101,retired,bachelors,married,2,no,schizophrenia
+b9ce2646f1311376a00ef77613663b4b,male,43210,employed,bachelors,married,3,no,hypertension
+f8ee72cac685af6c0e445d818ef81630,female,94105,employed,bachelors,married,1,no,skin cancer
+219e6cdebd87e66250647f670280e0fd,male,60605,employed,bachelors,married,2,no,hypertension
+7e8ee45c83f127ee17904e8b81bc8e97,female,90008,employed,bachelors,married,1,no,breast cancer
+8efc2f1e5d5108345c937cc6c0b0ad07,female,94105,employed,bachelors,married,1,no,breast cancer
+f0c59bda8c26a107cd3c751e7cade83d,female,43221,retired,bachelors,married,3,no,Alzheimer's disease
+9b864e120994bb67384032be4bd3b892,female,43210,employed,bachelors,married,1,no,Alzheimer's disease
+13c2cfd9e09f379230c051231a8a8ec7,female,90008,retired,bachelors,married,2,no,multiple sclerosis
+f500b63bba5c33910c05a8b5d2d4aa4e,female,44101,retired,highschool,married,2,no,diabetes
+c1b8f90710d504e050fda36177098b2e,male,89127,unemployed,highschool,single,2,no,Alzheimer's disease
+a852063c100dc7046f76812e165476b1,female,94110,retired,bachelors,married,1,no,skin cancer
+a77265e5de4832b019fa0ba382e83041,female,44101,retired,bachelors,married,3,no,kidney disease
+43b66ae4f51b13dc35dbf79ca980ca28,male,89136,retired,bachelors,married,2,no,prostate cancer
+0fdb0e84fa289ebfb7d3723cc1ab300d,male,89136,employed,bachelors,married,1,no,kidney disease
+49df8762592c86b8e5c5404e5769f5fd,male,10001,retired,bachelors,married,1,no,kidney disease
+0df034a68a15f08195d7c152874975d5,male,90008,employed,bachelors,married,1,no,prostate cancer
+f4268ff1919d21a8a342a7f106dae51d,female,43221,retired,bachelors,married,3,no,hypertension
+2539ae7d02eef605e06319a333ee9aed,female,60612,retired,bachelors,married,1,no,diabetes
+99efab7ecbf407eae9ad1538c28a386e,female,94105,retired,bachelors,married,2,no,diabetes
+2566e93ecb03ab46b137d14b747d52ac,female,90008,retired,bachelors,married,2,no,diabetes
+320ea6662573943a180fab7495df8841,female,60605,employed,bachelors,single,0,no,hypertension
+e06628ee072ea43940a008e5dc719910,male,89136,retired,bachelors,married,1,no,Alzheimer's disease
+13f95d39821ae3a01de4dc664e328b9b,female,10001,retired,bachelors,married,3,no,skin cancer
+d39483ad1ff3046f8b4f4a11f6ab6703,female,43221,unemployed,highschool,married,2,no,endometriosis
+ebf50cc04bb9fa1474d1a4ce90ec1f14,male,43210,retired,bachelors,married,2,no,skin cancer
+2be19e7c3e56bbfd2cc296ae043475a4,female,10001,retired,bachelors,married,1,no,Alzheimer's disease
+8ac12a3c05659597442e6cb69c34caec,male,10026,employed,bachelors,married,4,no,kidney disease
+892cae55e3c9812ffb2a6f06ab31195c,female,10001,retired,bachelors,married,3,no,hypertension
+059ccdd777d916d703598614b7619aa5,female,94110,retired,bachelors,married,1,no,endometriosis
+a5b5b80a265f4def6c6cee6ba474c916,female,90008,retired,bachelors,married,1,no,heart disease
+967c2fb6af99e0bacb854b62b263571e,female,10026,retired,bachelors,married,1,no,hypertension
+dbc3e9a59fda123ac230617ebba9719d,male,89127,employed,bachelors,married,1,no,hypertension
+b08a5b0f562e9e77b6d2724a90d5c1f2,male,94105,retired,bachelors,married,2,yes,gastritis
+97264098eac5e4d6fc0718d0e911379d,male,89136,employed,masters,married,1,no,HIV/AIDS
+3e83d3e8c81da3333ba655482341121c,male,10026,employed,bachelors,married,2,no,prostate cancer
+411a3ebeb7c0ee9269cb6f440cd857a1,female,94105,employed,bachelors,married,1,no,HIV/AIDS
+d4db819fbafa17dc6b096f55ffda3cd2,male,60605,employed,bachelors,married,3,no,hypertension
+8a7cdd28ff49ca6af6974bdc15a3257b,male,43210,employed,bachelors,married,3,no,gastritis
+0d638064be0ab596f24fb9a31a2192b6,male,43210,retired,bachelors,married,1,no,prostate cancer
+8e237560a163f3fcffe6fb3cfabd674f,male,90015,retired,highschool,single,1,no,heart disease
+41bd5a8fc44af3150147a6d1ade8fdc4,female,43210,retired,bachelors,married,1,no,Alzheimer's disease
+f19578ebb2876a9ed6608c7aca1e7a76,female,89127,retired,bachelors,married,2,no,heart disease
+bbf3c2ffe09eaee78947c6eb9f4c3220,female,89136,employed,masters,married,3,no,breast cancer
+6cf4ab870d40b1ff174d9b1c36b11ebe,female,43221,retired,bachelors,married,1,no,endometriosis
+c525d528a6e3f45455f15bcd10333706,female,10001,employed,masters,married,2,no,breast cancer
+89a0f75b6faed127ebb3c3aacbae453a,female,90015,employed,bachelors,married,3,no,HIV/AIDS
+1c1f4848110193aca0006375cc628e84,male,10001,unemployed,highschool,single,3,no,prostate cancer
+69a9cbba14d914b86095e8b90e57e43f,female,94105,employed,bachelors,married,3,no,Alzheimer's disease
+efdd714ce9d33444be8ba78558e2b774,male,60612,employed,bachelors,married,2,no,prostate cancer
+f9b1c8ff407f47d1ba12266e4c601766,male,94105,employed,bachelors,married,2,no,prostate cancer
+abd8eb700455fff3e52a61372517ea83,male,89127,retired,bachelors,married,3,no,Alzheimer's disease
+635eeb402b5682a57997bba6edb7c99c,male,43221,retired,bachelors,married,2,no,schizophrenia
+c5a541260008371fe9f5759caef9283e,male,90008,employed,bachelors,single,3,no,gastritis
+a38c0534da32f65ec539b32bed0fff20,male,89127,employed,masters,married,2,no,HIV/AIDS
+0446640c23cac23cde16aaa19c80687a,female,90008,employed,bachelors,married,2,no,hypertension
+75ae331f0111f25c4179e91e4660537b,female,90015,retired,bachelors,married,2,no,breast cancer
+538ff0eaf992f2c7eb2dfa544b8dfba6,female,89127,retired,bachelors,married,0,no,Alzheimer's disease
+55f2acd9f9ad117234b60ea2b366c911,male,60605,retired,bachelors,married,1,no,diabetes
+a3516420f6250f0cbfdf204f69e01f74,male,89136,retired,bachelors,married,1,no,heart disease
+87623eecb5974e6e2621054e14509d80,female,43221,retired,bachelors,married,2,no,kidney disease
+34341277aa10261105bd1d34e78ef72c,male,60605,employed,bachelors,married,2,no,HIV/AIDS
+d5a22d0e2247bb8edff23394cb79de3f,female,90008,retired,bachelors,married,1,no,breast cancer
+37aaf590ec0ec3003e133c2050e23015,female,94110,retired,bachelors,married,2,no,kidney disease
+0e90f0b8c96a7d690b7bfad84c99668e,female,10026,retired,bachelors,married,3,no,skin cancer
+54e53d281864195bbdc9336a2cf2a137,female,44101,employed,bachelors,single,2,no,skin cancer
+82c4676b607f885ceee2d1340a83116f,male,43221,employed,bachelors,married,1,no,gastritis
+cdd170b7bf6f575ce86cb4a7f8fa9c94,female,10026,retired,bachelors,married,2,no,Alzheimer's disease
+3d4209f074d7f74fc59f4eca821a79b3,female,10026,employed,bachelors,married,3,no,hypertension
+5a29bde70569c137df2e2e226e34e7af,male,43210,retired,bachelors,married,1,no,hypertension
+297da812053f05c49a6928ffd7b7b64b,female,89127,unemployed,highschool,single,1,no,breast cancer
+32feb5764b933db24ac458a2b7bdf92a,male,60612,employed,bachelors,married,4,no,prostate cancer
+c2b3752fd31ba620badfed0f047a9235,male,90015,employed,bachelors,married,2,no,skin cancer
+c4924ac8af957d293d98559bcb751578,female,43221,employed,bachelors,married,2,no,multiple sclerosis
+4b9dd289baddca1fc30ce3150b0df3e1,female,60605,unemployed,highschool,married,2,no,skin cancer
+dafbfa2c8631d63a2b6c65eaf02e895d,female,89127,retired,bachelors,married,1,no,hypertension
+a998bffc06b8a1034f14671891e4e7ee,male,94105,retired,bachelors,married,1,no,hypertension
+4e21c36b11c4fe5ea423a836ded49324,male,94110,employed,bachelors,married,2,no,gastritis
+8d1519a1915d10e2db6c141ebfd905ff,female,90008,retired,bachelors,married,2,no,Alzheimer's disease
+156eaf15594cb189bce4a6552a38abb0,male,44101,retired,masters,married,2,no,diabetes
+fd5b7290841d6cdecd5761f01e828e94,female,10001,employed,bachelors,married,2,no,Alzheimer's disease
+1492d1fcdd093c03ea4d39a816bed870,female,44101,retired,phd/md,married,2,no,kidney disease
+fc08128105c7edfe7c12536d191d3773,female,90015,employed,bachelors,married,1,no,heart disease
+a0f1b188056ed84324a4f8d3fa6af884,female,94110,retired,bachelors,married,2,no,Alzheimer's disease
+c5edd4f56fe080a714ae3b6a63896408,female,89127,employed,bachelors,married,1,no,hypertension
+72630e6a717533945f608449bdde8016,female,89136,employed,masters,married,3,no,skin cancer
+d86f13ddc3c1631f885964b3c1878b2d,male,10026,retired,masters,married,3,no,schizophrenia
+2ce1722c3c5a3a974d31e06e1aeeba0d,female,94110,employed,bachelors,married,1,no,multiple sclerosis
+60e847380059e0dfe4a4e25efd1d1d4a,female,89136,retired,bachelors,married,1,no,breast cancer
+0c2a69d9207fb33974c9aff69d8b1924,male,10026,employed,bachelors,married,4,no,diabetes
+21fe2681f7c7c6ea92fd6c50e38bc843,male,10001,employed,bachelors,married,2,no,hypertension
+7b3d4b1e76de7824e23f33928a1ef391,female,10001,employed,bachelors,married,4,no,breast cancer
+b954a4f9a74325368be47b1822c9c3a2,female,89136,retired,bachelors,single,2,no,Alzheimer's disease
+e908a59db53d375ad09c0b04bfbb2d58,male,94110,retired,bachelors,married,0,no,Alzheimer's disease
+c32e5db1c7b3819af795d69c9d447822,male,10001,unemployed,highschool,single,3,no,Alzheimer's disease
+8bcd99fc3506a9421e91bb0d53423cbd,female,94110,retired,bachelors,married,2,no,skin cancer
+435a23cc0367c64a8cd3888528c315a7,female,43210,retired,bachelors,single,2,no,heart disease
+7f601455a1f17df54ac3a41c8aa617bf,female,10001,unemployed,highschool,single,2,no,Alzheimer's disease
+042d48ec06de6a943c5ab8ea6b9908f8,female,44101,retired,bachelors,married,3,no,kidney disease
+5a84c4d8eeb2c3d2f2b0b471f5e5d5e6,male,43221,retired,bachelors,single,1,no,skin cancer
+e31e0373d4c362aa65611648ef340e83,female,94105,retired,masters,married,1,no,multiple sclerosis
+b683922a1a0f24edef702c4918627e78,male,10001,employed,bachelors,married,1,no,kidney disease
+819443d4609295ad87840de5c73ea3fa,female,43210,employed,bachelors,married,2,no,endometriosis
+1a8696c5cbf01d9855213c475fdbdb8c,male,10026,employed,bachelors,married,4,no,hypertension
+ead47adf15f7eb8a755eb853fcdead94,female,43210,retired,bachelors,single,2,no,schizophrenia
+d81d8a6671bce35afc43ddcc969316a1,female,90008,retired,bachelors,married,1,no,hypertension
+15825fc4840353b65340f243bb8f624c,female,90008,retired,bachelors,married,1,no,diabetes
+43fff0cfc84a1b0de74a64c44aa7f534,male,90008,employed,bachelors,married,1,no,multiple sclerosis
+3b5e50b3029c16ef28aba12fbf8ef829,male,43210,retired,bachelors,married,2,no,Alzheimer's disease
+6f0f84ddf8f7a62bde2d3c91c97ad632,female,10001,unemployed,highschool,single,2,no,endometriosis
+4f64ccbe8b35c135cc0ebcce61a8fd0c,female,94105,employed,bachelors,married,1,no,hypertension
+e3758fbbe5f2b16948f4c7a8c1b92415,male,10001,retired,bachelors,married,0,no,Alzheimer's disease
+07d09b2cd6b5438eb84b2e527a06f450,male,10001,retired,bachelors,married,2,no,skin cancer
+e43839f92c38936f13c2765be3223d9f,female,10001,employed,bachelors,married,3,no,skin cancer
+bda3ea8d99b7c7f83646a8a4d6334cc5,female,43221,retired,masters,married,2,no,schizophrenia
+f42ae553767e4ae192fc179adfb559a3,female,10001,employed,highschool,married,2,no,Alzheimer's disease
+bb7fa6e7b4f9ffa9ec1fb68d06d69377,female,60612,retired,bachelors,married,2,no,skin cancer
+191257c14e1df043d16170ee2fa3c724,female,89136,employed,bachelors,married,2,no,breast cancer
+1c138939fa07e91d55a009fd675f7a40,female,10026,retired,bachelors,married,3,no,multiple sclerosis
+b7b6cdd54dc8617b2f60ab7af55cabc3,female,44101,employed,highschool,married,2,no,kidney disease
+d3e7708a8b56ae468c1b0dd29152d23e,female,90008,employed,bachelors,married,1,no,hypertension
+1b836cefb9068b08d28280e18b018495,male,94105,retired,bachelors,married,2,no,hypertension
+66b6bb4626a347834b0d56020d26737e,male,60605,retired,bachelors,married,1,no,kidney disease
+12bbed5b8cd5aa625b6d391cd10afa25,male,94105,retired,bachelors,married,2,no,Alzheimer's disease
+02a6017818329faadcb867d32f0413a9,male,60612,retired,bachelors,married,2,no,hypertension
+1c24c9d504aee38183b28b5ec59b4118,male,94110,retired,bachelors,married,2,no,skin cancer
+e998b420d7ee3e997457025f5f40472b,female,43210,employed,bachelors,married,4,no,hypertension
+460eb18049285d1d76fdb4dcc7571c30,female,94105,retired,bachelors,married,2,no,Alzheimer's disease
+f00b1d89b50b3699b94c93f4735e167e,female,89136,retired,bachelors,married,3,no,hypertension
+0d943133cba64705a64c67f43cd66422,male,60605,employed,bachelors,married,3,no,diabetes
+12141228a0ddaa5558dc308b8bb73d8c,male,43210,retired,bachelors,married,2,no,Alzheimer's disease
+2a51d3519691e776eca3fcd9acd703a2,female,43210,employed,bachelors,married,1,no,Alzheimer's disease
+ab9de278b5722f8c844a4924260f10c9,female,43210,retired,bachelors,married,1,no,breast cancer
+00fd5c681807e829d2e4da13bb565fe4,female,43221,retired,bachelors,married,2,no,Alzheimer's disease
+866edc0382764b4bb49efcc644e8b231,male,60605,employed,bachelors,married,1,no,prostate cancer
+65da7552494f776466fde490431f8ff9,female,60612,employed,bachelors,married,1,no,skin cancer
+a52be9e8cbdcef4294448ce2a892308a,male,60605,employed,bachelors,married,3,no,skin cancer
+fb93ff1ead81afc8a2fc9633f4c76020,male,60612,retired,masters,married,4,no,Alzheimer's disease
+130912eacbbc6fed66d9bbc0551cffbd,male,10026,retired,bachelors,married,2,no,hypertension
+a428111ccfbcf321faf6c54ff6373728,male,43210,employed,bachelors,married,3,no,Alzheimer's disease
+3a3df355c38c47c68b9438e33a79fa68,female,90008,retired,bachelors,married,2,no,diabetes
+668b22720fa1a2b12ec5539a1b055838,male,43221,retired,masters,married,1,no,multiple sclerosis
+62dec6753b53357292c58db57bc24502,male,94110,retired,bachelors,single,2,no,heart disease
+620757d1c92e9ffb42521f9e2522af92,male,89127,retired,bachelors,single,2,no,Alzheimer's disease
+4269428feff596c2b75ccd26ada7d077,male,90008,retired,bachelors,single,3,no,skin cancer
+71576f367424ebe66f768a0f7745a534,male,60605,employed,bachelors,married,2,no,multiple sclerosis
+803326b900a1fa200a8bca7cc076ca6d,female,10001,retired,bachelors,married,2,no,skin cancer
+3cfd81b2d625fde00246eebf5ea78c5c,female,43221,retired,bachelors,married,4,no,endometriosis
+beb72cc04eb754a825204913b3e45e78,female,89136,retired,bachelors,married,1,no,diabetes
+d8e46a2a9a6713a6f97f0cd87cb1fcd1,male,89136,employed,bachelors,married,1,no,prostate cancer
+4a4ac2a16ab911d7e257b33fd81925c3,female,90008,employed,bachelors,married,1,no,skin cancer
+8e52dd52cf748c514b12c3e123310d96,female,89136,retired,bachelors,married,3,no,hypertension
+b50f46ef055680834b28881ef3ee8bd7,female,90008,employed,bachelors,married,3,no,hypertension
+237d07ba70aeb8ffb87e71b262ed28c2,female,10026,retired,bachelors,married,2,no,endometriosis
+050936c656602341ddabcac8eb3216fa,male,94110,employed,bachelors,married,2,no,skin cancer
+d805b4939c104b4923fc8048fbc2504c,male,10001,employed,masters,married,1,no,kidney disease
+faf9540ac8e00c17420418caa1a36dd5,male,90008,employed,bachelors,married,1,no,HIV/AIDS
+e1a1cb4d89caafa3882aa70bd4dc0930,male,43221,retired,bachelors,single,1,no,diabetes
+edab251cf56359cbde05efddcc802ed5,male,44101,retired,masters,married,2,no,multiple sclerosis
+0226a98ae0907e3261f65fe8233b1581,male,10001,retired,bachelors,married,0,no,hypertension
+663ee4e4cb965043ae82d26a7da56064,male,89136,employed,masters,married,1,no,kidney disease
+12e9e6f60143563485ae8ca0c1e48d80,male,60605,retired,highschool,married,1,no,diabetes
+bee0828de9aa781cc8f214b8a1eccee4,male,60605,retired,bachelors,married,2,no,hypertension
+cb6ad51f888380184fbf1e810e7767da,male,89127,employed,bachelors,married,1,no,prostate cancer
+f0ad439c9ad6714b6340927e0a2d64a2,female,43210,retired,bachelors,married,3,no,breast cancer
+81a8af862956e8b0a6d2e6b83755c6f5,male,10001,retired,bachelors,married,0,no,skin cancer
+d07f6ebfdbe734e67edb3c4035ccd04a,female,43221,retired,masters,married,2,no,skin cancer
+49bb1a48c78ac2ea3e7196905b27ad86,female,94110,retired,bachelors,married,2,no,Alzheimer's disease
+6bd3e0107a5c51a861b6ee7c5eec37fe,female,10026,retired,bachelors,married,2,no,Alzheimer's disease
+bb3f9d28419dd01d49e073827cb17ce2,male,94110,employed,bachelors,married,2,no,multiple sclerosis
+02338ff335634372cdc62706194a927e,female,89136,employed,masters,married,3,no,Alzheimer's disease
+b959e79bea515e235c9a55f5761efc7b,female,89136,retired,bachelors,married,2,no,hypertension
+e475a1299e58ca2553e782e218d93595,male,94110,retired,bachelors,married,0,no,prostate cancer
+cdbf09ac33d8673981b9066f7eec8312,female,10001,employed,highschool,married,2,no,multiple sclerosis
+a91d0ee95a9d7368e07d094dbdbbac89,female,44101,retired,bachelors,married,2,no,diabetes
+6b013041831c031d5c8d0bbb42f19090,male,60612,employed,bachelors,married,3,no,heart disease
+044776a8ae3b73b67fd7d2a3b34df801,male,89136,employed,bachelors,married,2,no,hypertension
+70d4a9ccee2d0bbabdfbd63992eac40d,male,43221,employed,bachelors,married,1,no,schizophrenia
+a205b4d13af36e589115c6df0833c58c,male,60612,retired,bachelors,married,2,no,multiple sclerosis
+a411655b297ee50ed32ab441ab968e6b,male,90008,retired,bachelors,single,3,no,prostate cancer
+be81fa5bdd62a71bc2cbb631bdffad99,female,60612,retired,highschool,married,2,no,endometriosis
+f6cb053245b94ede79962503ebcb1598,female,10001,retired,bachelors,married,2,no,breast cancer
+46b5f799ce7b5e405884272ed6266d49,male,60612,employed,bachelors,married,4,no,Alzheimer's disease
+7fbae132a086be1be5603463184ea6ce,male,60612,retired,bachelors,married,2,no,hypertension
+a067fa0fb0e405945176d3f43d10ee0b,female,90015,retired,bachelors,married,1,no,skin cancer
+96a15c0de83a31cc82a8370a36b29170,female,94110,retired,masters,married,2,no,breast cancer
+902c95625258d4aad62e1f677c01ba97,male,10001,employed,masters,married,1,no,hypertension
+337a8be9135625a1286d2c4ca5a862c4,female,94105,retired,masters,married,1,no,hypertension
+83858b633698a41f121931c558c18d6f,female,60612,retired,highschool,married,2,no,kidney disease
+c190105dccf6ae83bb131dd1406a2776,female,44101,retired,phd/md,married,2,no,diabetes
+504dc5a4b41fffbb383d13b0aa5a3063,male,89136,employed,bachelors,married,2,no,prostate cancer
+f7ae0411c8e775fa97544b3f9b9b2c3f,male,60612,employed,bachelors,married,2,no,diabetes
+46efae01a4ae99333b20396abd0e6667,female,10026,employed,highschool,married,1,no,HIV/AIDS
+45ead7183b26c033c9501cd567438a84,female,60612,retired,bachelors,single,2,no,hypertension
+a8b457ba6abcee83d87e73f38280c82a,female,10001,employed,bachelors,married,3,no,hypertension
+ca649d326fe890a2cc41e66d6295bc02,female,94105,employed,bachelors,married,1,no,Alzheimer's disease
+940e24a8271b742f47f6383d2735e553,male,89127,employed,bachelors,married,2,no,multiple sclerosis
+9d82eade2e2a9085fbe5ad0a918d8896,female,90015,retired,bachelors,married,2,no,Alzheimer's disease
+8839d5a6097c30293b1d22e7343a054f,male,43221,retired,bachelors,married,3,no,heart disease
+ce96b70b3801edf08603f5f59264649b,female,94105,retired,bachelors,single,3,no,kidney disease
+44311efac14b62526fb02be117372db3,male,94105,employed,bachelors,married,2,no,kidney disease
+3c391f6fcdc3e64a3a3650645a724c13,male,44101,retired,masters,married,2,no,heart disease
+7561fa947a798782f97b2e0ede7681c0,female,90008,employed,bachelors,married,3,no,hypertension
+328b07213199a1552b740931e3ce1519,male,43221,retired,masters,married,1,no,Alzheimer's disease
+88ef9b9f640cdd410e7a918dafda18ff,female,44101,retired,bachelors,married,2,no,skin cancer
+e8f860ff1d58e75225e5438d753ae8c2,female,60605,employed,bachelors,married,1,no,skin cancer
+37c2b303fe9ce6244fc8a23a18c22814,female,90008,retired,bachelors,married,5,no,Alzheimer's disease
+f9bb5cf086136a754732a51bb3581a2f,male,89136,retired,bachelors,married,1,no,heart disease
+9c62db5c308a1612b426466eb9a39b25,male,89127,employed,bachelors,married,1,no,prostate cancer
+3b1817a5ed45cee509058d7e9c0c6328,female,94105,retired,bachelors,single,3,no,gastritis
+7ed91b57d1e5f1a3f7d4ad3cd3f61ee7,male,94105,retired,bachelors,married,1,no,multiple sclerosis
+29a935ca14c160c23e3f5f94267b046d,male,90008,retired,bachelors,married,2,no,gastritis
+26bf3816b87a78bfbfbe7b66d33a72d6,female,89136,retired,bachelors,married,2,no,kidney disease
+4fe2249b17b62fd8d3ddd6dee6283bb9,female,94105,retired,bachelors,married,0,no,endometriosis
+df01336589a60635d1fd69f222967f2c,female,43221,employed,bachelors,married,1,no,skin cancer
+f91bb2294056e9d0429125864ba6f3f1,female,44101,retired,phd/md,married,2,no,endometriosis
+2be6ee496144fbbb06be8fe2572c2e54,female,60612,retired,bachelors,married,1,no,gastritis
+8972a9b003b98e50557cb48c4aeb0d94,female,90008,employed,bachelors,married,3,no,Alzheimer's disease
+268777b5698ddc3775800c7662167929,female,60605,retired,bachelors,married,2,no,endometriosis
+dc16f9624cd2fa94eb9ee0cdb83ef6af,male,90008,retired,bachelors,married,1,no,kidney disease
+8d5d03934b46992c1461b44cc70d6c09,female,90015,employed,bachelors,married,1,no,breast cancer
+33632a72785d51ab3c2296024b80ff65,male,89136,employed,bachelors,married,2,no,hypertension
+c656748911ffc6e3202a3c11581e03ad,male,60605,retired,highschool,married,2,no,skin cancer
+6ba5ab4390aa21539cfa628f6ef17042,female,10001,unemployed,highschool,single,2,no,heart disease
+8922259c4a60ea2269c90de3ad552ffc,female,90015,employed,highschool,married,2,no,Alzheimer's disease
+ef2463bfe77012eb6ad609ff7cd00062,female,89136,retired,bachelors,married,1,no,gastritis
+76e96d95e311758073a94be598d04a61,male,60612,retired,bachelors,married,2,no,Alzheimer's disease
+0cc9c8098fff4365d2ce3ff215edca80,male,43221,retired,bachelors,married,2,no,schizophrenia
+d35f1cfe9f3c3c24b705eb4f79afd36c,male,43210,employed,bachelors,married,2,no,skin cancer
+30977b84f0b03ffdabe13bd70c7bcc12,male,43221,retired,bachelors,married,2,no,prostate cancer
+753deab29492d8f3cd5452319ace66f1,male,60605,employed,bachelors,married,1,no,kidney disease
+ecaf7b6967a330dd4f80f5f7416bf0ea,male,10026,retired,bachelors,married,2,no,hypertension
+875b80534f9dcfe7b0ebb1255463312f,female,94110,employed,bachelors,married,1,no,breast cancer
+48ae0a97e16f9ff079190b42763780ae,female,10001,employed,bachelors,married,4,no,HIV/AIDS
+831b5e7dc06a565ea5e2a6de1211ec8e,female,60612,retired,bachelors,married,2,no,hypertension
+a6a15332750135b10f1eb5969f8adc7a,male,94105,retired,bachelors,single,3,no,gastritis
+d4184f854c517bc0b75bd025b860659c,male,94105,retired,bachelors,married,2,yes,skin cancer
+a8681a7a0f3b26fbdfadc6df68b4a06a,male,10001,employed,masters,married,1,no,hypertension
+9881d69693ca787e37b33c0c03badbac,female,60612,retired,bachelors,married,1,no,hypertension
+924ae2a466362b3356d7ad79645e55e0,female,60605,employed,bachelors,single,0,no,hypertension
+5c9d0a1f14513dc82f6585a107e230e5,male,94105,employed,bachelors,married,2,no,hypertension
+e54192395df082cd8463b3141a17935a,female,90008,employed,bachelors,married,2,no,kidney disease
+ff310e2c8d734a123dd5159a0a8211f6,male,94110,retired,bachelors,married,4,no,heart disease
+e6c83fe8d3766fe030968e02cf8722c3,male,94110,unemployed,highschool,married,2,no,kidney disease
+952d65c4477a5280986555e9fbe5468e,female,44101,retired,bachelors,married,2,no,endometriosis
+97b1b1abdc176714bcfa42279bb34bb6,female,60612,retired,bachelors,married,2,no,skin cancer
+c86f07905e532b7e4c3dc28e5487938f,female,10026,retired,bachelors,married,2,no,hypertension
+eb435111095f471779119cedb4798b48,male,94105,retired,bachelors,married,2,no,Alzheimer's disease
+ed650fe18d72a84549bac3a5a92f9e65,male,60605,retired,highschool,married,2,no,diabetes
+2a75f1f377d7a9787f347b45e2070b27,female,43221,retired,bachelors,married,4,no,breast cancer
+4bec5200318ad8970572b1eff387c589,female,43221,retired,masters,married,2,no,endometriosis
+08f9d5306b0a69a4cc63eae470f8b511,male,89136,retired,bachelors,married,1,no,Alzheimer's disease
+4f3933a51bcf351bd016e2adbe3cb202,female,44101,retired,bachelors,married,2,no,Alzheimer's disease
+9737a74c5c58dd87d65a87940bff3c8f,female,43221,employed,bachelors,married,1,no,multiple sclerosis
+ed5c7349da34844d615faf530dd9535b,female,10026,employed,bachelors,married,3,no,skin cancer
+6c363f74ad4f9ff71e7e6286f0decd24,female,94105,retired,bachelors,married,2,no,hypertension
+d873ae620514ccdbcf63f00896c72c10,female,94105,employed,highschool,married,4,no,skin cancer
+98be481f07ae9b424b40f961d9116c02,female,89127,employed,bachelors,married,3,no,breast cancer
+90a181e1518e14acc53fb971e0287d2f,female,44101,retired,bachelors,married,2,no,hypertension
+2ecb8d7596015fb632d1ede4be98b09f,female,10026,employed,bachelors,married,3,no,kidney disease
+299dbb71f6bcb7f3af6ccb0598986a18,male,94110,retired,bachelors,single,2,no,hypertension
+b7259b20bd88c6b94fedfbb970f46b08,female,89136,retired,bachelors,married,1,no,skin cancer
+f9629624afa300f8bbcb8541aab1c80c,female,94105,employed,bachelors,married,1,no,breast cancer
+22cf89da1c6a134a28b29fb11471942b,female,89127,retired,bachelors,married,1,no,Alzheimer's disease
+c500b0a2fc10d04499de360d4f04567c,male,60612,retired,bachelors,married,2,no,kidney disease
+e999aeddc5a2d0c7e3dc552ad306a3fd,male,60605,retired,bachelors,married,1,no,Alzheimer's disease
+9cf63186a57a75f9c1ec05ab8df872dd,female,44101,retired,bachelors,single,2,no,hypertension
+27d494caa4a4daa995e3a0a0478eb898,male,60612,retired,bachelors,married,2,no,schizophrenia
+4727ddd92d33fe0d147101d30c9d2cc3,female,90008,retired,bachelors,married,4,no,hypertension
+fc3bc0ee070e8acade80fa2d3e8aa19f,male,89136,employed,bachelors,married,1,no,hypertension
+cb58ce53db6e8852db39bc59bfb73297,male,90015,employed,bachelors,married,2,no,kidney disease
+812606a0863c04ee3c18c21252934173,female,94105,retired,bachelors,married,2,no,endometriosis
+9c896c647c02092cf86acde988f1b2ae,female,60605,employed,bachelors,single,0,no,breast cancer
+5d59b82e97d372bcf082a7dd82339204,female,10026,retired,bachelors,married,1,no,diabetes
+bc9d52a04e757e14c87949ec7175f0b4,female,89136,retired,bachelors,married,3,no,Alzheimer's disease
+c8e0cff3719722d58260f3841d068c4b,female,43221,retired,bachelors,married,2,no,skin cancer
+29fae1356d58f312ae07b0e0100044db,female,43221,employed,bachelors,married,2,no,HIV/AIDS
+17f5b751ff1546c05748c9569590b1a1,female,89136,retired,bachelors,married,2,no,hypertension
+238850f883ba6a467ddce472c033958f,female,43210,retired,bachelors,single,2,no,breast cancer
+5dadacf026920cd541d8f05d64b2fed1,male,10026,retired,masters,married,3,no,hypertension
+98bb03ae182251e2b994c3201999bc7a,female,94105,employed,bachelors,married,1,no,Alzheimer's disease
+80c77258f3f3840d48f41c47bd8f111a,male,10001,employed,bachelors,married,1,no,multiple sclerosis
+9c7edec9a106b2c7555d56ae340064ae,female,94105,employed,bachelors,married,3,no,diabetes
+75b2043070c532a46548c51cbd84aec2,female,94105,retired,masters,married,1,no,breast cancer
+85b5abfc26281d1c87ace284cb09bbb3,male,89127,employed,masters,married,2,no,hypertension
+7b65e0e55762a1adee774bef071529be,female,90008,employed,bachelors,married,1,no,breast cancer
+596d0a87db2f3bc273ac2bad47214f17,female,10026,retired,bachelors,married,1,no,hypertension
+32ca0b67b2cf6bc32db2bf98c0cf02cf,female,60605,employed,bachelors,married,1,no,breast cancer
+41f185dc84cd037cb3b504ddd8b38cbe,female,94105,retired,masters,married,1,no,skin cancer
+f08155161119c4809857e6041d6ba5c0,female,89136,retired,bachelors,married,3,no,Alzheimer's disease
+069f56394dfd41b872f9d273179fab86,female,43210,retired,bachelors,married,1,no,diabetes
+986339c30eed12910b73eb27f774717b,female,10001,retired,bachelors,married,1,no,endometriosis
+4925bc7b0a1ffc660ac9ea2f17d90542,male,10026,employed,bachelors,married,2,no,kidney disease
+af6c02906128e4c090c735495e133176,male,90008,employed,bachelors,married,1,no,prostate cancer
+071a23ab89c944ecbe0e924efad94aeb,female,94110,employed,bachelors,married,1,no,skin cancer
+ae23f7749906513c008801920f737e56,male,90015,retired,highschool,married,2,no,Alzheimer's disease
+a3f6c1fe3aef8f968ef8e1ca96d8dbb3,female,94110,employed,bachelors,married,4,no,breast cancer
+379c86a7c2db5f2ac8bf32ace36b98c8,male,94105,employed,bachelors,married,0,no,kidney disease
+c9b21e7b42257d490554b8fb57f2cd07,male,60612,retired,bachelors,married,2,no,Alzheimer's disease
+c513b1b6d421b896fa9f6f948ab0f30a,female,10001,retired,bachelors,married,2,no,Alzheimer's disease
+8db92536ab66c8fa5fc8054f4b7a9beb,male,94110,unemployed,highschool,married,2,no,prostate cancer
+8043c060a2417a2b4349275319bdaf8c,male,89127,unemployed,highschool,single,2,no,skin cancer
+6a9e7dca425c62434d2fd98319984084,female,10026,employed,highschool,married,1,no,Alzheimer's disease
+625a2122d08af34314fd88d3912f877a,female,89136,employed,bachelors,married,2,no,multiple sclerosis
+6a706650af722b31f84cf716d351b433,male,43221,employed,bachelors,married,1,no,prostate cancer
+4b7131604a9346def5631b9e57ce51fc,male,90015,retired,bachelors,married,2,no,hypertension
+283d002713294f0a7e8fc48a8401a28e,female,94110,employed,bachelors,married,1,no,Alzheimer's disease
+a5490e719a6da0412ffb54d6d8caa138,female,90008,employed,bachelors,married,3,no,Alzheimer's disease
+bac9783c4769fa132687a4d038c03030,male,43221,employed,bachelors,married,1,no,prostate cancer
+19e7fca98f8cd15420c93750358952f1,male,60605,retired,bachelors,married,2,no,kidney disease
+de1b969f826eac78c699fbac02cbf07c,male,89127,retired,bachelors,married,3,no,skin cancer
+e254ae51d6cb6a719245e984452945a8,female,60612,retired,bachelors,married,1,no,breast cancer
+3a5eeb5101b83256cdd307c599c0e921,female,89127,employed,bachelors,married,1,no,breast cancer
+80cfe3c4fd8d9430f2e1f0e44a69908f,male,94110,retired,bachelors,married,4,no,prostate cancer
+9d458b780dd19d025c1e96d401e16fb8,male,44101,retired,highschool,married,0,no,multiple sclerosis
+53bd70ec94c16ae956c4074be19b2cca,male,60605,retired,highschool,married,1,no,diabetes
+e63d540eefb0eea11ced330d1efb80e9,female,43221,retired,masters,married,2,no,Alzheimer's disease
+25b4acc11a0ef718f65c1158e4107921,female,43210,employed,bachelors,married,4,no,Alzheimer's disease
+b956cf27794539f13c9e7344217e65fb,female,43221,employed,bachelors,married,1,no,diabetes
+dbe269303ac85a9dec5075a3ed4b5b5a,female,94110,employed,bachelors,married,4,no,hypertension
+8a36d080d4ba3aa8decb16de39069264,male,43210,retired,bachelors,married,1,no,diabetes
+3d286360b231cbe8056000999ddcffb8,female,60605,retired,bachelors,married,2,no,endometriosis
+3cd2912fb19edd87d949f66882e31888,male,10001,employed,bachelors,married,2,no,gastritis
+7403b3d9b6b02b20f2ff492d058959ee,male,89127,retired,bachelors,married,2,no,Alzheimer's disease
+4285cfb49ae4161a287eae774224a4ff,male,44101,retired,highschool,married,0,no,HIV/AIDS
+a701fdc914a68fa2223778d1c674ccc6,male,89127,retired,masters,married,1,no,heart disease
+cbae13d475075ad1461f8a4d73bce462,male,94110,employed,bachelors,married,2,no,hypertension
