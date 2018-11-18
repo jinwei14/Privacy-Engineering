@@ -24,17 +24,25 @@ class ObliviousTransfer:
         self.B = None
 
     def generatePublicPrivateKeys(self):
+        from Crypto.PublicKey import RSA
+        bits = 2048
+        new_key = RSA.generate(bits, e=65537)
+        public_key = new_key.publickey().exportKey("PEM")
+        private_key = new_key.exportKey("PEM")
+        return private_key, public_key
 
 
-        return
 
     #
     # @staticmethod
     # def primeGen(num_bits):
     #
     #     return util.gen_prime(num_bits)
+#
+# key = Fernet.generate_key()
+# f = Fernet(key)
+# token = f.encrypt(b"A really secret message. Not for prying eyes.")
 
-key = Fernet.generate_key()
-f = Fernet(key)
-token = f.encrypt(b"A really secret message. Not for prying eyes.")
+b = ObliviousTransfer()
+print(b.generatePublicPrivateKeys())
 
