@@ -20,13 +20,14 @@ def alice(filename):
   for json_circuit in json_circuits['circuits']:
     # << removed >>
 
+
 # Bob is the circuit evaluator (server) ____________________________________
 
 def bob():
   socket = util.ServerSocket()
   util.log(f'Bob: Listening ...')
   while True:
-    # << removed >>
+  # << removed >>
 
 # local test of circuit generation and evaluation, no transfers_____________
 
