@@ -44,5 +44,5 @@ class ObliviousTransfer:
 # token = f.encrypt(b"A really secret message. Not for prying eyes.")
 
 b = ObliviousTransfer()
-print(b.generatePublicPrivateKeys())
+print(type(b.generatePublicPrivateKeys()[1]))
 
