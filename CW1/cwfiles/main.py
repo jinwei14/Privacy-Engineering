@@ -38,14 +38,6 @@ def bob():
 
 
 
-
-
-
-
-
-
-
-
 # local test of circuit generation and evaluation, no transfers_____________
 
 def local_test(filename):

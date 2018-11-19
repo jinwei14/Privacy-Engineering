@@ -4,14 +4,16 @@
 
 OBLIVIOUS_TRANSFERS = True
 
-if OBLIVIOUS_TRANSFERS: # __________________________________________________
+if OBLIVIOUS_TRANSFERS:
+# __________________________________________________
 
 # bellare-micali OT with naor and pinkas optimisations, see smart p423
 
 # << removed >>
     print('OBLIVIOUS_TRANSFERS executing')
 
-else: # ____________________________________________________________________
+else:
+# ____________________________________________________________________
 
 # non oblivious transfers, not even a secure channel is used, for testing
 
