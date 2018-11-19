@@ -17,6 +17,9 @@ class ObliviousTransfer:
     - Bob computes D_K(c1) to get the good message m1
     - Bob computes D_K(c2) to get the rubbish message.
 
+AIM: to carry out the core operations for oblivious transfer (generate primes,
+xor byte sequences, generate variable-length cryptographic hashes,
+do modular exponentiation on prime number groups)
     """
 
     def __init__(self):
