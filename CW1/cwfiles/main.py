@@ -18,8 +18,11 @@ def alice(filename):
         json_circuits = json.load(json_file)
 
     # << Your code >>
+    index = 0
     for json_circuit in json_circuits['circuits']:
+        print('literarion = ', index)
         print(json_circuit)
+        index += 1
 
 
 
@@ -61,6 +64,10 @@ def main():
 
     elif behaviour == 'local':
         local_test(filename=sys.argv[2])
+
+
+    else:
+        print('no such behaviour(name) exist')
 
 if __name__ == '__main__':
   main()
