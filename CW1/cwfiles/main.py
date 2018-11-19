@@ -33,6 +33,17 @@ def bob():
     # << removed >>
     while True:
         print("?")
+        break
+
+
+
+
+
+
+
+
+
+
 
 
 # local test of circuit generation and evaluation, no transfers_____________
@@ -47,12 +58,17 @@ def local_test(filename):
 
 
 # main _____________________________________________________________________
-
+# json/f.add.json json file
 def main():
     behaviour = sys.argv[1]
-    if  behaviour == 'alice': alice(filename=sys.argv[2])
-    elif behaviour == 'bob':   bob()
-    elif behaviour == 'local': local_test(filename=sys.argv[2])
+    if  behaviour == 'alice':
+        alice(filename=sys.argv[2])
+
+    elif behaviour == 'bob':
+        bob()
+
+    elif behaviour == 'local':
+        local_test(filename=sys.argv[2])
 
 if __name__ == '__main__':
   main()

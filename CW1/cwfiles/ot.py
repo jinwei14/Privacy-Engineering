@@ -6,16 +6,17 @@ OBLIVIOUS_TRANSFERS = True
 
 if OBLIVIOUS_TRANSFERS: # __________________________________________________
 
-  # bellare-micali OT with naor and pinkas optimisations, see smart p423
+# bellare-micali OT with naor and pinkas optimisations, see smart p423
 
-  # << removed >>
+# << removed >>
+    print('OBLIVIOUS_TRANSFERS executing')
 
 else: # ____________________________________________________________________
 
-  # non oblivious transfers, not even a secure channel is used, for testing
+# non oblivious transfers, not even a secure channel is used, for testing
 
-  # << removed >>
+# << removed >>
 
 # __________________________________________________________________________
-
+    print('NON OBLIVIOUS_TRANSFERS executing')
 
