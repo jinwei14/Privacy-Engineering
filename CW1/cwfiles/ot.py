@@ -16,10 +16,11 @@
 - Bob computes D_K(c1) to get the good message m1
 - Bob computes D_K(c2) to get the rubbish message.
 
-AIM: to carry out the core operations for oblivious transfer (generate primes,
-xor byte sequences, generate variable-length cryptographic hashes,
+AIM: to carry out the core operations for oblivious transfer
+(generate primes, xor byte sequences,
+generate variable-length cryptographic hashes,
 do modular exponentiation on prime number groups)
-    """
+"""
 
 OBLIVIOUS_TRANSFERS = True
 
@@ -42,7 +43,7 @@ else:
     print('NON OBLIVIOUS_TRANSFERS executing')
 
 
-def generatePublicPrivateKeys(self):
+def generatePublicPrivateKeys():
     from Crypto.PublicKey import RSA
     bits = 2048
     new_key = RSA.generate(bits, e=65537)
