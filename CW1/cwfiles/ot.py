@@ -21,26 +21,27 @@ AIM: to carry out the core operations for oblivious transfer
 generate variable-length cryptographic hashes,
 do modular exponentiation on prime number groups)
 """
+class Ot:
 
-OBLIVIOUS_TRANSFERS = True
+    OBLIVIOUS_TRANSFERS = True
 
-if OBLIVIOUS_TRANSFERS:
-# __________________________________________________
+    if OBLIVIOUS_TRANSFERS:
+    # __________________________________________________
 
-# bellare-micali OT with naor and pinkas optimisations, see smart p423
+    # bellare-micali OT with naor and pinkas optimisations, see smart p423
 
-# << removed >>
-    print('OBLIVIOUS_TRANSFERS executing')
+    # << removed >>
+        print('OBLIVIOUS_TRANSFERS executing')
 
-else:
-# ____________________________________________________________________
+    else:
+    # ____________________________________________________________________
 
-# non oblivious transfers, not even a secure channel is used, for testing
+    # non oblivious transfers, not even a secure channel is used, for testing
 
-# << removed >>
+    # << removed >>
 
-# __________________________________________________________________________
-    print('NON OBLIVIOUS_TRANSFERS executing')
+    # __________________________________________________________________________
+        print('NON OBLIVIOUS_TRANSFERS executing')
 
 
 def generatePublicPrivateKeys():
