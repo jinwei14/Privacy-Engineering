@@ -36,10 +36,12 @@ while True:
     c = G_sender.rand_int()
     print(type(c))
     print('c is ', c)
-    socket.send(b"client message to server1")
+    socket.send(str(c).encode('utf8'))
 
     msg = socket.recv()
-    print(msg)
+    print(msg.decode())
+
+
 
     time.sleep(1)
 

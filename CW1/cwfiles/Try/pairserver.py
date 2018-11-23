@@ -9,7 +9,8 @@ socket = context.socket(zmq.PAIR)
 socket.bind("tcp://*:%s" % port)
 
 while True:
-    socket.send(str(bin(123)).encode('utf8'))
+    socket.send(str(123).encode('utf8'))
     msg = socket.recv()
-    print (msg)
+    # msg = int.from_bytes(msg, byteorder='little')
+    print (msg.decode(), 'the type is ', type(msg.decode()))
     time.sleep(1)

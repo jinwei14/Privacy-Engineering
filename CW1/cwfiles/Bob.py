@@ -35,9 +35,28 @@ print('server bob connected')
 
 while True:
 
+
     msg = socket.recv()
-    print (msg)
-    socket.send(b'Server message to client3')
+    print (msg.decode())
+    c= int(msg.decode())
+
+    G_rece = util.PrimeGroup()
+    x = G_rece.primeM1
+    print(type(x))
+    print('x is ', x)
+
+    g = G_rece.find_generator()
+    print(type(g))
+    print('g is ', g)
+
+    h_b = pow(g, x, 2)
+    h_1b = c // h_b
+    print(type(h_b), type(h_1b))
+    print('h_b is ', h_b, 'h_1b is ', h_1b)
+    # h0 (h_1b) is send to sender
+    socket.send(str(h_1b).encode('utf8'))
+
+    
     time.sleep(1)
 
 
