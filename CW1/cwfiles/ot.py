@@ -24,6 +24,18 @@ AIM: to carry out the core operations for oblivious transfer
 generate variable-length cryptographic hashes,
 do modular exponentiation on prime number groups)
 """
+
+
+"""
+things needs to be improve
+
+power()
+
+inverse()
+
+bits() ???
+
+"""
 class Ot:
 
     OBLIVIOUS_TRANSFERS = True
