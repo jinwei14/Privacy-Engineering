@@ -1,4 +1,7 @@
 import util
+import zmq
+import random
+import sys
 import time
 RSA_bits = 512
 
@@ -22,11 +25,22 @@ class Alice:
 
 
 
-alice = Alice()
+port = "5556"
+context = zmq.Context()
+socket = context.socket(zmq.PAIR)
+socket.connect("tcp://localhost:%s" % port)
+print('client alice connected')
+
 while True:
-    alice.send(b'Server message to client3')
-    msg = alice.recv()
-    print (msg)
+    G_sender = util.PrimeGroup()
+    c = G_sender.rand_int()
+    print(type(c))
+    print('c is ', c)
+    socket.send(b"client message to server1")
+
+    msg = socket.recv()
+    print(msg)
+
     time.sleep(1)
 
 

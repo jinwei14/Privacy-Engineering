@@ -9,7 +9,7 @@ socket = context.socket(zmq.PAIR)
 socket.bind("tcp://*:%s" % port)
 
 while True:
-    socket.send(b'Server message to client3')
+    socket.send(str(bin(123)).encode('utf8'))
     msg = socket.recv()
     print (msg)
     time.sleep(1)

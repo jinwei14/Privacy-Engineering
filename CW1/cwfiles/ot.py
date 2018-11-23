@@ -67,8 +67,7 @@ def generatePublicPrivateKeys():
 # f = Fernet(key)
 # token = f.encrypt(b"A really secret message. Not for prying eyes.")
 
-import sys
-print('size of int',sys.getsizeof(int(0)))
+
 
 G_sender = util.PrimeGroup()
 c = G_sender.rand_int()
