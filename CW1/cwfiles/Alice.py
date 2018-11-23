@@ -1,42 +1,16 @@
-import rsa
-RSA_bits = 512
+import zmq
+import random
+import sys
+import time
 
-class Alice:
+port = "5556"
+context = zmq.Context()
+socket = context.socket(zmq.PAIR)
+socket.connect("tcp://localhost:%s" % port)
 
-    # message is the message that alice send to bob, t is the number of message that bob can learn
-    def __init__(self, message, t):
-        self.message = message
-        self.t = t
-        (pubkey1, privkey1) = self.generateKeyPairs()
-        (pubkey2, privkey2) = self.generateKeyPairs()
-
-
-
-
-
-
-    def generateKeyPairs(self):
-
-        return 0
-
-
-    def sendMessage(self):
-
-        # send all of this.
-        return self.message
-
-
-    #once alice receiced the EncrtptedKey alice decript it using it private keys
-    def receivedEncrtptedKey(self, EncrtptedKey):
-        # key1 =
-        # key2 =
-
-        return 0;
-
-
-
-
-
-
-
-
+while True:
+    msg = socket.recv()
+    print (msg)
+    socket.send(b"client message to server1")
+    socket.send(b"client message to server2")
+    time.sleep(1)

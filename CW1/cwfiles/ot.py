@@ -106,6 +106,6 @@ e_1 = util.xor_bytes(msg2, util.ot_hash(pow(h_1, k, 2), msg_length))
 
 #e0 e1 c1 send to receiver for this example b == 1
 m_1 =  util.xor_bytes(e_1, util.ot_hash(pow(c_1,x,2), msg_length))
-print(m_1.decode('ascii'))
+print('the messgae that bob get is ', m_1.decode('ascii'))
 
 
