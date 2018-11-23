@@ -1,6 +1,6 @@
 import util
 import  math
-# import numpy as np
+import numpy as np
 from decimal import Decimal
 # yao garbled circuit evaluation v1. simple version based on smart
 # naranker dulay, dept of computing, imperial college, october 2018
