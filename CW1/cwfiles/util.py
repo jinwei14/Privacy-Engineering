@@ -104,11 +104,11 @@ class PrimeGroup:
           return candidate
 
 
-if sys.argv[1] == 'alice':		# one group is sufficient
-    prime_group = PrimeGroup()		# singleton, simpler than metaclass
-    print("exe alice")
-else:
-    prime_group = None			# bob receives group from alice
+# if sys.argv[1] == 'alice':		# one group is sufficient
+#     prime_group = PrimeGroup()		# singleton, simpler than metaclass
+#     print("exe alice")
+# else:
+#     prime_group = None			# bob receives group from alice
 
 
 # sockets __________________________________________________________________
