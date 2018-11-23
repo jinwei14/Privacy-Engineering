@@ -113,8 +113,8 @@ class PrimeGroup:
 
 # sockets __________________________________________________________________
 
-LOCAL_PORT  = 4080			# change if port clashes
-SERVER_PORT = 4080			# change if using port redirection 
+LOCAL_PORT  = 7788			# change if port clashes
+SERVER_PORT = 7788			# change if using port redirection
 SERVER_HOST = 'localhost'		# change if server on different host
 # SERVER_HOST = '0.tcp.au.ngrok.io' 	# relay through amazonws in Sydney
 
@@ -145,4 +145,5 @@ class ClientSocket(Socket):  # change local host for
 
 
 
-
+ServerSocket = ServerSocket()
+print('hah')

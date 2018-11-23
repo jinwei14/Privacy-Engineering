@@ -1,16 +1,35 @@
-import zmq
-import random
-import sys
+import util
 import time
+RSA_bits = 512
 
-port = "5556"
-context = zmq.Context()
-socket = context.socket(zmq.PAIR)
-socket.connect("tcp://localhost:%s" % port)
+class Alice:
 
+    # message is the message that alice send to bob, t is the number of message that bob can learn
+    def __init__(self):
+        self.ClientSocket = util.ClientSocket
+
+
+    def send(self,msg):
+        self.ClientSocket.send(msg)
+
+
+    def receive(self):
+        self.ClientSocket.receive()
+
+
+
+
+
+
+
+alice = Alice()
 while True:
-    msg = socket.recv()
+    alice.send(b'Server message to client3')
+    msg = alice.recv()
     print (msg)
-    socket.send(b"client message to server1")
-    socket.send(b"client message to server2")
     time.sleep(1)
+
+
+
+
+
