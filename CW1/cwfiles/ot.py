@@ -1,4 +1,4 @@
-
+import util
 # yao garbled circuit evaluation v1. simple version based on smart
 # naranker dulay, dept of computing, imperial college, october 2018
 """
@@ -33,6 +33,7 @@ class Ot:
     # << removed >>
         print('OBLIVIOUS_TRANSFERS executing')
 
+
     else:
     # ____________________________________________________________________
 
@@ -64,4 +65,30 @@ def generatePublicPrivateKeys():
 # token = f.encrypt(b"A really secret message. Not for prying eyes.")
 
 print(type(generatePublicPrivateKeys()[1]))
+
+G_sender = util.PrimeGroup()
+c = G_sender.rand_int()
+print(c)
+
+
+# c sned from sender to bob for this example b = 1
+
+G_rece = util.PrimeGroup()
+x = G_rece.primeM1
+g = G_rece.find_generator()
+h_b = g**x
+h_1b = c/h_b
+
+# h0 (h_1b) is send to sender
+h_0 = h_1b
+h_1 = c/h_0
+k = G_sender.primeM2
+c_1 = g**k
+e_0 = util.ot_hash(h_0**k, 2)
+e_1 = util.ot_hash(h_1**k, 2)
+
+
+#e0 e1 c1 send to receiver
+
+
 
