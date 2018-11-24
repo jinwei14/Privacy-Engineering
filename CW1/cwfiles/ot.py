@@ -121,90 +121,116 @@ def generatePublicPrivateKeys():
 # print('the messgae that bob get is ', m_1.decode('ascii'))
 
 
+#---------------------------------------------------------------------------
 
-
+# #
+# G_sender = util.PrimeGroup()
+# c = G_sender.rand_int()
+# print(type(c))
+# print('c is ', c)
 #
-G_sender = util.PrimeGroup()
-c = G_sender.rand_int()
-print(type(c))
-print('c is ', c)
+#
+# # c sned from sender to bob for this example b = 1
+#
+# G_rece = util.PrimeGroup()
+# x = G_rece.primeM1
+# print(type(x))
+# print('x is ', x)
+#
+# g = G_rece.find_generator()
+# print(type(g))
+# print('g is ', g)
+#
+# h_b = G_rece.gen_pow(x)
+# h_1b = G_rece.mul(c,G_rece.inv(h_b))
+# print(type(h_b), type(h_1b))
+# print('h_b is ', h_b, 'h_1b is ', h_1b)
+#
+# # h0 (h_1b) is send to sender
+# h_0 = h_1b
+# h_1 = G_sender.mul(c,G_sender.inv(h_0))
+# k = G_sender.primeM2
+# c_1 = G_sender.gen_pow(k)
+# msg1 = 'message 1 by sender'.encode()
+# msg2 = 'message 2 by sender'.encode()
+# msg_length = 19
+# e_0 = util.xor_bytes(msg1, util.ot_hash(G_sender.pow(h_0, k), msg_length))
+# e_1 = util.xor_bytes(msg2, util.ot_hash(G_sender.pow(h_1, k), msg_length))
+#
+#
+# #e0 e1 c1 send to receiver for this example b == 1
+# m_1 =  util.xor_bytes(e_1, util.ot_hash(pow(c_1,x,2), msg_length))
+# print('the messgae that bob get is ', m_1.decode())
+
+#---------------------------------------------------------------------------
+class Alice:
+    def __init__(self):
+        self.G_sender = util.PrimeGroup()
+
+    def send_c(self):
+        #G_sender = util.PrimeGroup() # this need to be changed to self.
+        c = self.G_sender.rand_int()
+        print(type(c))
+        print('c is ', c)
+        return c
+
+    def sendMessage(self, h0, msg1, msg2):
+        # h0 (h_1b) is send to sender
+        h_0 = h0
+        h_1 = self.G_sender.mul(c, self.G_sender.inv(h_0))
+        k = self.G_sender.primeM2
+        c_1 = self.G_sender.gen_pow(k)
+        msg1 = msg1.encode()  ## this should be your input message
+        msg2 = msg2.encode()
+        msg_length = len(msg1)
+        e_0 = util.xor_bytes(msg1, util.ot_hash(self.G_sender.pow(h_0, k), msg_length))
+        e_1 = util.xor_bytes(msg2, util.ot_hash(self.G_sender.pow(h_1, k), msg_length))
+        return c_1, [e_0, e_1],msg_length
 
 
-# c sned from sender to bob for this example b = 1
 
-G_rece = util.PrimeGroup()
-x = G_rece.primeM1
-print(type(x))
-print('x is ', x)
+class Bob:
+    def __init__(self, choice):
+        self.G_rece = util.PrimeGroup()
+        self.x = self.G_rece.primeM1
+        self.choice = choice
 
-g = G_rece.find_generator()
-print(type(g))
-print('g is ', g)
+    def send_h0(self, c):
+        #G_rece = util.PrimeGroup()
+        print(type(self.x))
+        print('x is ', self.x)
 
-h_b = G_rece.gen_pow(x)
-h_1b = G_rece.mul(c,G_rece.inv(h_b))
-print(type(h_b), type(h_1b))
-print('h_b is ', h_b, 'h_1b is ', h_1b)
+        g = self.G_rece.find_generator()
+        print(type(g))
+        print('g is ', g)
 
-# h0 (h_1b) is send to sender
-h_0 = h_1b
-h_1 = G_sender.mul(c,G_sender.inv(h_0))
-k = G_sender.primeM2
-c_1 = G_sender.gen_pow(k)
-msg1 = b'message 1 by sender'
-msg2 = b'message 2 by sender'
-msg_length = 19
-e_0 = util.xor_bytes(msg1, util.ot_hash(G_sender.pow(h_0, k), msg_length))
-e_1 = util.xor_bytes(msg2, util.ot_hash(G_sender.pow(h_1, k), msg_length))
+        h_b = self.G_rece.gen_pow(self.x)
+        h_1b = self.G_rece.mul(c, self.G_rece.inv(h_b))
+        print(type(h_b), type(h_1b))
+        print('h_b is ', h_b, 'h_1b is ', h_1b)
 
+        if self.choice == 0:
+            return h_b
+        else:
+            return h_1b
 
-#e0 e1 c1 send to receiver for this example b == 1
-m_1 =  util.xor_bytes(e_1, util.ot_hash(pow(c_1,x,2), msg_length))
-print('the messgae that bob get is ', m_1.decode('ascii'))
+    def getMessage(self, c_1, encryMsg, msg_length):
+        trueMessage = util.xor_bytes(encryMsg[self.choice], util.ot_hash(pow(c_1, self.x, 2), msg_length))
+        return trueMessage
 
 
-def send_c():
-    G_sender = util.PrimeGroup() # this need to be changed to self.
-    c = G_sender.rand_int()
-    print(type(c))
-    print('c is ', c)
+bob = Bob(0)
+alice = Alice()
 
+c = alice.send_c()
+h0 = bob.send_h0(c)
 
-def send_h0(choice):
-    G_rece = util.PrimeGroup()
-    x = G_rece.primeM1
-    print(type(x))
-    print('x is ', x)
+c_1, E, length = alice.sendMessage(h0, '0', '1')
 
-    g = G_rece.find_generator()
-    print(type(g))
-    print('g is ', g)
+trueMsg = bob.getMessage(c_1,E, length)
 
-    h_b = G_rece.gen_pow(x)
-    h_1b = G_rece.mul(c,G_rece.inv(h_b))
-    print(type(h_b), type(h_1b))
-    print('h_b is ', h_b, 'h_1b is ', h_1b)
+str = unicode(str, errors='replace')
 
-    if choice == 0:
-        return h_b
-    else:
-        return h_1b
+print(trueMsg.decode())
 
-
-def sendMessage(h0,msg1,msg2):
-    # h0 (h_1b) is send to sender
-    h_0 = h0
-    h_1 = G_sender.mul(c, G_sender.inv(h_0))
-    k = G_sender.primeM2
-    c_1 = G_sender.gen_pow(k)
-    msg1 = bytes(msg1) ## this should be your input message
-    msg2 = bytes(msg2)
-    msg_length = len(msg1)
-    e_0 = util.xor_bytes(msg1, util.ot_hash(G_sender.pow(h_0, k), msg_length))
-    e_1 = util.xor_bytes(msg2, util.ot_hash(G_sender.pow(h_1, k), msg_length))
-    return c_1, [e_0, e_1]
-
-def getMessage(c_1,encryMsg,b):
-    trueMessage = util.xor_bytes(encryMsg[b], util.ot_hash(pow(c_1, x, 2), msg_length))
-    return trueMessage
 
