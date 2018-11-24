@@ -33,7 +33,8 @@ power()
 
 inverse()
 
-bits() ???
+bits() ??? may be length massage ??
+
 
 """
 class Ot:
@@ -81,6 +82,48 @@ def generatePublicPrivateKeys():
 
 
 
+# G_sender = util.PrimeGroup()
+# c = G_sender.rand_int()
+# print(type(c))
+# print('c is ', c)
+#
+#
+# # c sned from sender to bob for this example b = 1
+#
+# G_rece = util.PrimeGroup()
+# x = G_rece.primeM1
+# print(type(x))
+# print('x is ', x)
+#
+# g = G_rece.find_generator()
+# print(type(g))
+# print('g is ', g)
+#
+# h_b = pow(g, x, 2)
+# h_1b = c//h_b
+# print(type(h_b), type(h_1b))
+# print('h_b is ', h_b, 'h_1b is ', h_1b)
+#
+# # h0 (h_1b) is send to sender
+# h_0 = h_1b
+# h_1 = c//h_0
+# k = G_sender.primeM2
+# c_1 =  pow(g,k,2)
+# msg1 = bytes('message 1 by sender', 'utf-8')
+# msg2 = bytes('message 2 by sender', 'utf-8')
+# msg_length = 19
+# e_0 = util.xor_bytes(msg1, util.ot_hash(pow(h_0, k, 2), msg_length))
+# e_1 = util.xor_bytes(msg2, util.ot_hash(pow(h_1, k, 2), msg_length))
+#
+#
+# #e0 e1 c1 send to receiver for this example b == 1
+# m_1 =  util.xor_bytes(e_1, util.ot_hash(pow(c_1,x,2), msg_length))
+# print('the messgae that bob get is ', m_1.decode('ascii'))
+
+
+
+
+#
 G_sender = util.PrimeGroup()
 c = G_sender.rand_int()
 print(type(c))
@@ -98,25 +141,70 @@ g = G_rece.find_generator()
 print(type(g))
 print('g is ', g)
 
-h_b = pow(g, x, 2)
-h_1b = c//h_b
+h_b = G_rece.gen_pow(x)
+h_1b = G_rece.mul(c,G_rece.inv(h_b))
 print(type(h_b), type(h_1b))
 print('h_b is ', h_b, 'h_1b is ', h_1b)
 
 # h0 (h_1b) is send to sender
 h_0 = h_1b
-h_1 = c//h_0
+h_1 = G_sender.mul(c,G_sender.inv(h_0))
 k = G_sender.primeM2
-c_1 =  pow(g,k,2)
+c_1 = G_sender.gen_pow(k)
 msg1 = b'message 1 by sender'
 msg2 = b'message 2 by sender'
 msg_length = 19
-e_0 = util.xor_bytes(msg1, util.ot_hash(pow(h_0, k, 2), msg_length))
-e_1 = util.xor_bytes(msg2, util.ot_hash(pow(h_1, k, 2), msg_length))
+e_0 = util.xor_bytes(msg1, util.ot_hash(G_sender.pow(h_0, k), msg_length))
+e_1 = util.xor_bytes(msg2, util.ot_hash(G_sender.pow(h_1, k), msg_length))
 
 
 #e0 e1 c1 send to receiver for this example b == 1
 m_1 =  util.xor_bytes(e_1, util.ot_hash(pow(c_1,x,2), msg_length))
 print('the messgae that bob get is ', m_1.decode('ascii'))
 
+
+def send_c():
+    G_sender = util.PrimeGroup() # this need to be changed to self.
+    c = G_sender.rand_int()
+    print(type(c))
+    print('c is ', c)
+
+
+def send_h0(choice):
+    G_rece = util.PrimeGroup()
+    x = G_rece.primeM1
+    print(type(x))
+    print('x is ', x)
+
+    g = G_rece.find_generator()
+    print(type(g))
+    print('g is ', g)
+
+    h_b = G_rece.gen_pow(x)
+    h_1b = G_rece.mul(c,G_rece.inv(h_b))
+    print(type(h_b), type(h_1b))
+    print('h_b is ', h_b, 'h_1b is ', h_1b)
+
+    if choice == 0:
+        return h_b
+    else:
+        return h_1b
+
+
+def sendMessage(h0,msg1,msg2):
+    # h0 (h_1b) is send to sender
+    h_0 = h0
+    h_1 = G_sender.mul(c, G_sender.inv(h_0))
+    k = G_sender.primeM2
+    c_1 = G_sender.gen_pow(k)
+    msg1 = bytes(msg1) ## this should be your input message
+    msg2 = bytes(msg2)
+    msg_length = len(msg1)
+    e_0 = util.xor_bytes(msg1, util.ot_hash(G_sender.pow(h_0, k), msg_length))
+    e_1 = util.xor_bytes(msg2, util.ot_hash(G_sender.pow(h_1, k), msg_length))
+    return c_1, [e_0, e_1]
+
+def getMessage(c_1,encryMsg,b):
+    trueMessage = util.xor_bytes(encryMsg[b], util.ot_hash(pow(c_1, x, 2), msg_length))
+    return trueMessage
 
