@@ -178,7 +178,7 @@ class Alice:
         # h0 (h_1b) is send to sender
         h_0 = h0
         h_1 = self.G_sender.mul(c, self.G_sender.inv(h_0))
-        k = self.G_sender.primeM2
+        k = self.G_sender.primeM1
         c_1 = self.G_sender.gen_pow(k)
         msg1 = msg1.encode()  ## this should be your input message
         msg2 = msg2.encode()
@@ -219,17 +219,17 @@ class Bob:
         return trueMessage
 
 
-bob = Bob(0)
+bob = Bob(1)
 alice = Alice()
 
 c = alice.send_c()
 h0 = bob.send_h0(c)
 
-c_1, E, length = alice.sendMessage(h0, '0', '1')
+c_1, E, length = alice.sendMessage(h0, 'Tian is cool', 'Jinn is cool')
 
 trueMsg = bob.getMessage(c_1,E, length)
 
-str = unicode(str, errors='replace')
+# str = unicode(str, errors='replace')
 
 print(trueMsg.decode())
 
