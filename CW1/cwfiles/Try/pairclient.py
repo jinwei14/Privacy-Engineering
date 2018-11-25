@@ -14,3 +14,8 @@ while True:
     socket.send(str(888).encode('utf8'))
     # socket.send(b"client message to server2")
     time.sleep(1)
+
+
+
+
+
